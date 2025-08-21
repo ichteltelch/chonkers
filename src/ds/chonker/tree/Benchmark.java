@@ -16,6 +16,7 @@ import java.nio.file.attribute.BasicFileAttributes;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.EnumSet;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Locale;
 import java.util.Random;
@@ -26,6 +27,7 @@ import java.util.function.Predicate;
 import java.util.function.ToDoubleFunction;
 import java.util.stream.Collectors;
 
+import ds.chonker.tree.ChonkerLeaf.CharLeaf;
 import ds.chonker.tree.ChonkersMonoidData.WithUserMonoids;
 
 public class Benchmark {
@@ -159,7 +161,7 @@ public class Benchmark {
 					sb.append("$ & $").append(maxWeightPerLevel[level].toTeX(factor));
 				}else {
 					sb.append("$ & $").append(stdDevWeightPerLevel[level].toTeX_noBounds(factor));
-//					sb.append("$ & $").append(String.format("%.3f", stdDevWeightPerLevel[level].toTeX(factor)));	
+					//					sb.append("$ & $").append(String.format("%.3f", stdDevWeightPerLevel[level].toTeX(factor)));	
 				}
 				sb.append("$ & $").append(maxSegmentWeightPerLevel[level].toTeX(factor));
 				sb.append("$ & $").append(minPairWeightPerLevel[level].toTeX(factor));
@@ -452,7 +454,7 @@ public class Benchmark {
 			maxSegmentWeightPerLevel = new long[levels];
 			minPairWeightPerLevel = new double[levels];
 			for(int level = 0; level<levels; ++level) {
-				int tag = ChonkerNode.encodeLayerTag(level, 2, 5);
+				int tag = ChonkerNode.encodeLevelTag(level, 2, 5);
 				double weightSum = 0;
 				double weightSquareSum = 0;
 				long minWeight = Long.MAX_VALUE;
@@ -507,7 +509,7 @@ public class Benchmark {
 		public <T extends ChonkersMonoidData<T>> SingleLocalityResult(ChonkerNode<T> original, ChonkerNode<T> modified, long modiIndex) {
 			modiIndex*=32;
 			levels = Math.min(original.level(), modified.level());
-			int commonTag = ChonkerNode.encodeLayerTag(levels-1, 2, 5);
+			int commonTag = ChonkerNode.encodeLevelTag(levels-1, 2, 5);
 			differentChunksLeftOrig = new long[levels];
 			differentChunksRightOrig = new long[levels];
 			differentChunksLeftModi = new long[levels];
@@ -515,14 +517,14 @@ public class Benchmark {
 			differentBitsLeft= new long[levels];
 			differentBitsRight= new long[levels];
 			for(int level = 1; level<levels; ++level) {
-				int tag = ChonkerNode.encodeLayerTag(level, 2, 5);
+				int tag = ChonkerNode.encodeLevelTag(level, 2, 5);
 				ChonkerTreeZipper<T> oz = new ChonkerTreeZipper<T>(original).leftMost(commonTag);
 				ChonkerTreeZipper<T> mz = new ChonkerTreeZipper<T>(modified).leftMost(commonTag);
 				long skipped = 0;
 				long lastWeight = 0;
 
 				for(int cLevel = levels-1; cLevel >= level; --cLevel) {
-					int ctag = ChonkerNode.encodeLayerTag(cLevel, 2, 5);
+					int ctag = ChonkerNode.encodeLevelTag(cLevel, 2, 5);
 					oz = oz.leftMost(ctag);
 					mz = mz.leftMost(ctag);
 					while(!oz.isEnd() &&!mz.isEnd()) {
@@ -560,7 +562,7 @@ public class Benchmark {
 				lastWeight = 0;
 				skipped = 0;
 				for(int cLevel = levels-1; cLevel >= level; --cLevel) {
-					int ctag = ChonkerNode.encodeLayerTag(cLevel, 2, 5);
+					int ctag = ChonkerNode.encodeLevelTag(cLevel, 2, 5);
 
 					oz = oz.rightMost(ctag);
 					mz = mz.rightMost(ctag);
@@ -600,6 +602,231 @@ public class Benchmark {
 			}
 
 		}
+	}
+	static class CompressibilityResult{
+		ArrayList<CompressibilityLayerResult> ls = new ArrayList<>();
+		public void add(Yarn y, List<HashSet<Object>> unique) {
+			int neededLayers = y.heComin.level();
+			if(ls.size()<=neededLayers || unique.size()<=neededLayers) {
+				synchronized (this) {
+					while(ls.size()<= neededLayers) {
+						if(ls.size()==0)
+							ls.add(new CompressibilityLayerResult(ls.size()));
+						else
+							ls.add(ls.get(ls.size()-1).clone(ls.size()));
+					}
+					while(unique.size() <= neededLayers)
+						unique.add(new HashSet<>());
+				}
+			}
+			for(int i=0; i<ls.size(); ++i) {
+				ls.get(i).addYarn(y, unique.get(i));
+			}
+		}
+		public CompressibilityResult add(Corpus<?> corpus, List<HashSet<Object>> unique) {
+			AtomicInteger i = new AtomicInteger();
+			AtomicLong s = new AtomicLong();
+
+			corpus.data.parallelStream().forEach(str->{
+				Yarn orig = Yarn.of(str);
+				add(orig, unique);
+
+				long ss = s.addAndGet(orig.longLength());
+				int ii = i.incrementAndGet();
+				if(ii%100==0) {
+					System.out.println("Dedup: processed "+ii+" strings, total chars: "+ss);
+					System.gc();
+				}
+			});
+			return this;
+		}
+
+		public String toString() {
+			StringBuilder sb = new StringBuilder();
+			for(CompressibilityLayerResult l: ls)
+				sb.append(l.toString()).append("\n");
+			return sb.toString();
+		}
+
+		public String toTeX() {
+			StringBuilder sb = new StringBuilder();
+			sb.append("\\begin{tabular}{r|r|r|r|r|r|}\n");
+			sb.append("layer & #chunks & #unique & caterpillars & compressed & ratio \\\\\n");
+			sb.append("\\hline\n");
+			for(CompressibilityLayerResult l: ls) {
+				l.giveTeX(sb);
+				sb.append("\\\\\n");
+			}
+			sb.append("\\hline\n");
+			sb.append("\\end{tabular}\n");
+			sb.append("\n total utf8 bytes: "+ls.get(0).totalLength/8);
+			return sb.toString();
+		}
+
+	}
+	static class CompressibilityLayerResult implements Cloneable{
+		int layerIndex;
+		int levelTag;
+		public long totalChunks;
+		public long uniqueChunks;
+		public long absoluteUnit;
+		public long totalUniqueLength;
+		long totalLength;
+		public long caterpillarLengths;
+
+		public String toString() {
+			long ts = totalLength/8;
+			long cs = (long)Math.ceil(compressedSize()/8);
+			StringBuilder sb = new StringBuilder();
+			sb.append("Layer: ").append(layerIndex).append('\n');
+			sb.append("\n  Total chunks: "+totalChunks);
+			sb.append("\n  Total length: "+ts);
+			sb.append("\n  Unique chunks:").append(uniqueChunks);
+			sb.append("\n  Bits for caterpillar counts: "+(int)Math.ceil(caterpillarLengths));
+			sb.append("\n  Compressed length: "+cs);
+			sb.append("\n  ratio: "+(cs/(double)ts));
+			return sb.toString();
+		}
+		public void giveTeX(StringBuilder sb) {
+			long ts = totalLength/8;
+			long cs = (long)Math.ceil(compressedSize()/8);
+			sb.append(String.format(
+					"$%d$  & $%s$ & $%s$ & $%s$ & $%s$ & $%s$ & $%.3f$", 
+					layerIndex,
+					sci(totalChunks, 2),
+					sci(ts, 2),
+					sci(uniqueChunks, 2),
+					sci((long)Math.ceil(caterpillarLengths/8), 2),
+					sci(cs, 2),
+					(double)(cs/(double)ts)
+					));
+		}
+
+		private static String sci(long n, int precision) {
+			String direct = String.valueOf(n);
+			int directWidth= direct.length();
+			int exponent = (int) Math.floor(Math.log(n)/Math.log(10));
+			int expLength = String.valueOf(exponent).length();
+			double mantissa = n * Math.pow(10, -exponent);
+			String mantissaString = String.format("%."+precision+"f", mantissa);
+			double sciWidth = mantissaString.length() + 2 + expLength*0.7;
+			if(sciWidth<directWidth) {
+				return mantissaString+"\\cdot 10^{"+exponent+"}";
+			}
+			return direct;
+		}
+		public CompressibilityLayerResult(int layerIndex) {
+			this.layerIndex = layerIndex;
+			this.levelTag = ChonkerNode.encodeLevelTag(layerIndex, 2, 5);
+			this.absoluteUnit = Yarn.cc.absoluteUnit(layerIndex);
+		}
+		public CompressibilityLayerResult clone(int layerIndex) {
+			CompressibilityLayerResult ret;
+			try {
+				ret = (CompressibilityLayerResult) clone();
+			} catch (CloneNotSupportedException e) {
+				throw new AssertionError();
+			}
+			ret.layerIndex = layerIndex;
+			ret.levelTag = ChonkerNode.encodeLevelTag(layerIndex, 2, 5);
+			ret.absoluteUnit = Yarn.cc.absoluteUnit(layerIndex);
+			return ret;
+		}
+
+		public void addNonUnique(ChonkerNode<?> n) {
+			long utf8 = utf8Bytes(n)*8;
+			synchronized (this) {
+
+			}{
+				totalChunks++;
+				totalLength+=utf8;
+			}
+		}
+
+		public void addYarn(Yarn y, HashSet<Object> unique) {
+			ChonkerTreeZipper<?> at = new ChonkerTreeZipper<>(y.heComin).leftMost(levelTag);
+			while(!at.isEnd()) {
+				add(at.node, unique);
+				at = at.right(levelTag);
+			}
+		}
+
+		public void add(ChonkerNode<?> node, HashSet<Object> unique) {
+			boolean wasFirst;
+			synchronized (unique) {
+				wasFirst = unique.add(node.getMonoidData());
+			}
+			if(wasFirst) {
+				addUnique(node);
+			}else {
+				addNonUnique(node);
+			}
+		}
+		public void addUnique(ChonkerNode<?> n) {
+			if(n instanceof Caterpillar) {
+				Caterpillar<?> c = (Caterpillar<?>) n;
+				long segUtf8 = utf8Bytes(c.getSegment())*8;
+				synchronized (this) {
+					addUniqueCaterpillar(segUtf8, c.repetitions());
+					totalLength += c.repetitions() * segUtf8;
+				}
+
+			}else {
+				long utf8 = utf8Bytes(n)*8;
+				synchronized (this) {
+					addUnique(utf8);
+					totalLength += utf8;
+				}
+			}
+		}
+		long utf8Bytes(ChonkerNode<?> n) {
+			if(n instanceof CharLeaf) {
+				CharLeaf c = (CharLeaf) n;
+				int codePoint = c.value;
+				if (codePoint <= 0x7F) {
+					return 1;
+				} else if (codePoint <= 0x7FF) {
+					return 2;
+				} else if (codePoint <= 0xFFFF) {
+					return 3;
+				} else {
+					return 4;
+				}
+			}
+			if(n instanceof Caterpillar<?>) {
+				Caterpillar<?> c = (Caterpillar<?>)n;
+				return utf8Bytes(c.getSegment())*c.repetitions();
+			}
+			long r = 0;
+
+			for(long i = 0; i<n.numChildren(); ++i) {
+				r += utf8Bytes(n.getChild(i));
+			}
+			return r;
+
+		}
+		public void addUnique(long length) {
+			totalUniqueLength += length;
+			uniqueChunks++;
+			totalChunks++;
+		}
+		public void addUniqueCaterpillar(long period, long repetitions) {
+			totalUniqueLength += period;
+			uniqueChunks++;
+			totalChunks++;
+
+			caterpillarLengths += Math.ceil(Math.log(repetitions));
+		}
+		public double compressedSize() {
+			return totalUniqueLength // The unique contents
+					+ uniqueChunks * Math.ceil(Math.log(absoluteUnit-1)/(32*Math.log(2))) // the lengths of the unique contents 
+					+ caterpillarLengths //The repetition counts for caterpillars
+					+ totalChunks * Math.log(uniqueChunks)/Math.log(2)
+					;
+		}
+
+
+
 	}
 
 	static class Corpus<S extends CharSequence>{
@@ -679,7 +906,7 @@ public class Benchmark {
 			long ret = 0;
 			for(S s: data)
 				ret += s.length();
-            return ret;
+			return ret;
 		}
 
 
@@ -716,17 +943,24 @@ public class Benchmark {
 	public static void main(String[] args) throws IOException {
 		Locale.setDefault(Locale.US);
 		Corpus<?> corpus = defaultFictionCorpus(-1);
-//		Corpus<?> corpus = defaultKernelCorpus(-1);
-//		Corpus<?> corpus = randomCorpus(10000, 10000, 4324324);
+		//		Corpus<?> corpus = defaultKernelCorpus(-1);
+		//		Corpus<?> corpus = randomCorpus(10000, 10000, 4324324);
 		System.out.println("Corpus loaded: "+corpus.data.size()+" strings, "+corpus.totalCharCount()+" chars");
-//		corpus = corpus.toYarnCorpus();
-		
+		//		corpus = corpus.toYarnCorpus();
+
+		if(true) {
+			CompressibilityResult dedupResult = new CompressibilityResult().add(corpus, new ArrayList<>());
+			System.out.println(dedupResult);
+			System.out.println(dedupResult.toTeX());
+			return;
+		}
+
 		GaussianSizeResult sizeResult = evalSizeGaussian(corpus);
 		System.out.println(sizeResult);
-		
+
 		GaussianLocalityResult localityResult = evalLocalityGaussian(corpus);
 		System.out.println(localityResult);
-		
+
 		PhaseCensus census = new PhaseCensus(corpus);
 		System.out.println(census.toString());
 
@@ -820,21 +1054,21 @@ public class Benchmark {
 			SingleSizeResult result = new SingleSizeResult(root);
 
 			if(ii%100==0) {
-//				try {
-//					text = null;
-//					for(int k=0; k<10; ++k) {
-//						System.gc();
-//						System.gc();
-//						System.gc();
-//						Thread.sleep(50);
-//					}
-//					System.out.println(Yarn.cc.canon.size());
-//					System.out.println(Yarn.cc.monoidCanon.size());
-//					System.in.read();
-//				} catch (IOException | InterruptedException e) {
-//					// TODO Auto-generated catch block
-//					e.printStackTrace();
-//				}
+				//				try {
+				//					text = null;
+				//					for(int k=0; k<10; ++k) {
+				//						System.gc();
+				//						System.gc();
+				//						System.gc();
+				//						Thread.sleep(50);
+				//					}
+				//					System.out.println(Yarn.cc.canon.size());
+				//					System.out.println(Yarn.cc.monoidCanon.size());
+				//					System.in.read();
+				//				} catch (IOException | InterruptedException e) {
+				//					// TODO Auto-generated catch block
+				//					e.printStackTrace();
+				//				}
 				System.gc();
 				System.out.println(Yarn.cc.canon.size());
 				System.out.println(Yarn.cc.monoidCanon.size());
