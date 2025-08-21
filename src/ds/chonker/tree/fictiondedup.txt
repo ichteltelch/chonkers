@@ -1,0 +1,224 @@
+Layer: 0
+
+  Total chunks: 1057123055
+  Total length: 1093335012
+  Unique chunks:353
+  Bits for caterpillar counts: 0
+  Compressed length: 1118374071
+  ratio: 1.022901543191411
+Layer: 1
+
+  Total chunks: 597022981
+  Total length: 1084572233
+  Unique chunks:7975
+  Bits for caterpillar counts: 1870
+  Compressed length: 967293487
+  ratio: 0.8918663576001765
+Layer: 2
+
+  Total chunks: 343621392
+  Total length: 1095069402
+  Unique chunks:246991
+  Bits for caterpillar counts: 2856
+  Compressed length: 770522630
+  ratio: 0.7036290381164353
+Layer: 3
+
+  Total chunks: 182457103
+  Total length: 1100108026
+  Unique chunks:7674146
+  Bits for caterpillar counts: 4055
+  Compressed length: 579856309
+  ratio: 0.5270903359448811
+Layer: 4
+
+  Total chunks: 93432350
+  Total length: 1101094621
+  Unique chunks:46224985
+  Bits for caterpillar counts: 3622
+  Compressed length: 916633123
+  ratio: 0.832474435455443
+Layer: 5
+
+  Total chunks: 47501157
+  Total length: 1101337315
+  Unique chunks:45137836
+  Bits for caterpillar counts: 1637
+  Compressed length: 1215065417
+  ratio: 1.1032636418026025
+Layer: 6
+
+  Total chunks: 23943616
+  Total length: 1101367894
+  Unique chunks:23628519
+  Bits for caterpillar counts: 617
+  Compressed length: 1161980291
+  ratio: 1.0550337424308467
+Layer: 7
+
+  Total chunks: 12018984
+  Total length: 1101375606
+  Unique chunks:11900414
+  Bits for caterpillar counts: 226
+  Compressed length: 1126916253
+  ratio: 1.0231897700120298
+Layer: 8
+
+  Total chunks: 6021523
+  Total length: 1101381772
+  Unique chunks:5983962
+  Bits for caterpillar counts: 12
+  Compressed length: 1112306138
+  ratio: 1.0099187822767055
+Layer: 9
+
+  Total chunks: 3014091
+  Total length: 1101382068
+  Unique chunks:3003719
+  Bits for caterpillar counts: 4
+  Compressed length: 1106156065
+  ratio: 1.004334551232225
+Layer: 10
+
+  Total chunks: 1507809
+  Total length: 1101382068
+  Unique chunks:1505164
+  Bits for caterpillar counts: 0
+  Compressed length: 1103549077
+  ratio: 1.0019675361193552
+Layer: 11
+
+  Total chunks: 754515
+  Total length: 1101382068
+  Unique chunks:753773
+  Bits for caterpillar counts: 0
+  Compressed length: 1102265048
+  ratio: 1.0008017018123452
+Layer: 12
+
+  Total chunks: 377365
+  Total length: 1101382068
+  Unique chunks:377143
+  Bits for caterpillar counts: 0
+  Compressed length: 1101650611
+  ratio: 1.000243823653755
+Layer: 13
+
+  Total chunks: 188797
+  Total length: 1101382068
+  Unique chunks:188734
+  Bits for caterpillar counts: 0
+  Compressed length: 1101457568
+  ratio: 1.0000685502353757
+Layer: 14
+
+  Total chunks: 94593
+  Total length: 1101382068
+  Unique chunks:94581
+  Bits for caterpillar counts: 0
+  Compressed length: 1101452428
+  ratio: 1.0000638833716693
+Layer: 15
+
+  Total chunks: 47564
+  Total length: 1101382068
+  Unique chunks:47562
+  Bits for caterpillar counts: 0
+  Compressed length: 1101440917
+  ratio: 1.0000534319576375
+Layer: 16
+
+  Total chunks: 24110
+  Total length: 1101382068
+  Unique chunks:24110
+  Bits for caterpillar counts: 0
+  Compressed length: 1101428954
+  ratio: 1.0000425701501434
+Layer: 17
+
+  Total chunks: 12531
+  Total length: 1101382068
+  Unique chunks:12531
+  Bits for caterpillar counts: 0
+  Compressed length: 1101404958
+  ratio: 1.0000207829786456
+Layer: 18
+
+  Total chunks: 6933
+  Total length: 1101382068
+  Unique chunks:6933
+  Bits for caterpillar counts: 0
+  Compressed length: 1101393993
+  ratio: 1.0000108273053887
+Layer: 19
+
+  Total chunks: 4282
+  Total length: 1101382068
+  Unique chunks:4282
+  Bits for caterpillar counts: 0
+  Compressed length: 1101389061
+  ratio: 1.000006349295311
+Layer: 20
+
+  Total chunks: 3410
+  Total length: 1101382068
+  Unique chunks:3410
+  Bits for caterpillar counts: 0
+  Compressed length: 1101387497
+  ratio: 1.000004929261296
+Layer: 21
+
+  Total chunks: 3237
+  Total length: 1101382068
+  Unique chunks:3237
+  Bits for caterpillar counts: 0
+  Compressed length: 1101387191
+  ratio: 1.000004651428554
+Layer: 22
+
+  Total chunks: 3221
+  Total length: 1101382068
+  Unique chunks:3221
+  Bits for caterpillar counts: 0
+  Compressed length: 1101387163
+  ratio: 1.00000462600595
+Layer: 23
+
+  Total chunks: 3219
+  Total length: 1101382068
+  Unique chunks:3219
+  Bits for caterpillar counts: 0
+  Compressed length: 1101387160
+  ratio: 1.0000046232820998
+
+\begin{tabular}{r|r|r|r|r|r|}
+layer & \#chunks & \#unique & caterpillars & compressed & ratio \\
+\hline
+$0$  & $1.06\cdot 10^{9}$ & $1.09\cdot 10^{9}$ & $353$ & $0$ & $1.12\cdot 10^{9}$ & $1.023$\\
+$1$  & $5.97\cdot 10^{8}$ & $1.08\cdot 10^{9}$ & $7975$ & $233$ & $9.67\cdot 10^{8}$ & $0.892$\\
+$2$  & $3.44\cdot 10^{8}$ & $1.10\cdot 10^{9}$ & $246991$ & $357$ & $7.71\cdot 10^{8}$ & $0.704$\\
+$3$  & $1.82\cdot 10^{8}$ & $1.10\cdot 10^{9}$ & $7.67\cdot 10^{6}$ & $506$ & $5.80\cdot 10^{8}$ & $0.527$\\
+$4$  & $9.34\cdot 10^{7}$ & $1.10\cdot 10^{9}$ & $4.62\cdot 10^{7}$ & $452$ & $9.17\cdot 10^{8}$ & $0.832$\\
+$5$  & $4.75\cdot 10^{7}$ & $1.10\cdot 10^{9}$ & $4.51\cdot 10^{7}$ & $204$ & $1.22\cdot 10^{9}$ & $1.103$\\
+$6$  & $2.39\cdot 10^{7}$ & $1.10\cdot 10^{9}$ & $2.36\cdot 10^{7}$ & $77$ & $1.16\cdot 10^{9}$ & $1.055$\\
+$7$  & $1.20\cdot 10^{7}$ & $1.10\cdot 10^{9}$ & $1.19\cdot 10^{7}$ & $28$ & $1.13\cdot 10^{9}$ & $1.023$\\
+$8$  & $6.02\cdot 10^{6}$ & $1.10\cdot 10^{9}$ & $5.98\cdot 10^{6}$ & $1$ & $1.11\cdot 10^{9}$ & $1.010$\\
+$9$  & $3.01\cdot 10^{6}$ & $1.10\cdot 10^{9}$ & $3.00\cdot 10^{6}$ & $0$ & $1.11\cdot 10^{9}$ & $1.004$\\
+$10$  & $1.51\cdot 10^{6}$ & $1.10\cdot 10^{9}$ & $1.51\cdot 10^{6}$ & $0$ & $1.10\cdot 10^{9}$ & $1.002$\\
+$11$  & $754515$ & $1.10\cdot 10^{9}$ & $753773$ & $0$ & $1.10\cdot 10^{9}$ & $1.001$\\
+$12$  & $377365$ & $1.10\cdot 10^{9}$ & $377143$ & $0$ & $1.10\cdot 10^{9}$ & $1.000$\\
+$13$  & $188797$ & $1.10\cdot 10^{9}$ & $188734$ & $0$ & $1.10\cdot 10^{9}$ & $1.000$\\
+$14$  & $94593$ & $1.10\cdot 10^{9}$ & $94581$ & $0$ & $1.10\cdot 10^{9}$ & $1.000$\\
+$15$  & $47564$ & $1.10\cdot 10^{9}$ & $47562$ & $0$ & $1.10\cdot 10^{9}$ & $1.000$\\
+$16$  & $24110$ & $1.10\cdot 10^{9}$ & $24110$ & $0$ & $1.10\cdot 10^{9}$ & $1.000$\\
+$17$  & $12531$ & $1.10\cdot 10^{9}$ & $12531$ & $0$ & $1.10\cdot 10^{9}$ & $1.000$\\
+$18$  & $6933$ & $1.10\cdot 10^{9}$ & $6933$ & $0$ & $1.10\cdot 10^{9}$ & $1.000$\\
+$19$  & $4282$ & $1.10\cdot 10^{9}$ & $4282$ & $0$ & $1.10\cdot 10^{9}$ & $1.000$\\
+$20$  & $3410$ & $1.10\cdot 10^{9}$ & $3410$ & $0$ & $1.10\cdot 10^{9}$ & $1.000$\\
+$21$  & $3237$ & $1.10\cdot 10^{9}$ & $3237$ & $0$ & $1.10\cdot 10^{9}$ & $1.000$\\
+$22$  & $3221$ & $1.10\cdot 10^{9}$ & $3221$ & $0$ & $1.10\cdot 10^{9}$ & $1.000$\\
+$23$  & $3219$ & $1.10\cdot 10^{9}$ & $3219$ & $0$ & $1.10\cdot 10^{9}$ & $1.000$\\
+\hline
+\end{tabular}
+
+ total utf8 bytes: 1093335012

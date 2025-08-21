@@ -603,9 +603,56 @@ public class Benchmark {
 
 		}
 	}
+	static class UniqueSubstring{
+		final CharSequence container;
+		final int offset;
+		int length;
+		final int hashCode;
+		public UniqueSubstring(CharSequence container, int offset, int length, int hashCode) {
+			if(offset + length >  container.length())
+				throw new IllegalArgumentException();
+			this.container = container;
+			this.offset = offset;
+			this.length = length;
+			this.hashCode = hashCode;
+		}
+		@Override
+		public int hashCode() {
+			return hashCode;
+		}
+		@Override
+		public boolean equals(Object o) {
+			if(o == this)
+				return true;
+			if(o==null)
+				return false;
+			if(o instanceof UniqueSubstring) {
+				UniqueSubstring a = (UniqueSubstring) o;
+				if(hashCode!=a.hashCode)
+					return false;
+				if(length!=a.length)
+					return false;
+				if(a.container==container && offset==a.offset)
+					return true;
+//				if(container instanceof Yarn) {
+//					return ((Yarn)container).substringEquals(offset, length, a.container, a.offset);
+//				}
+//				if(a.container instanceof Yarn) {
+//					return ((Yarn)a.container).substringEquals(a.offset, length, container, offset);
+//				}
+				for(int i=0; i<length; ++i) {
+					if(container.charAt(offset + i) != a.container.charAt(a.offset+i))
+						return false;
+				}
+				return true;
+			}
+			return false;
+			
+		}
+	}
 	static class CompressibilityResult{
 		ArrayList<CompressibilityLayerResult> ls = new ArrayList<>();
-		public void add(Yarn y, List<HashSet<Object>> unique) {
+		public void add(Yarn y, CharSequence orig, List<HashSet<UniqueSubstring>> unique) {
 			int neededLayers = y.heComin.level();
 			if(ls.size()<=neededLayers || unique.size()<=neededLayers) {
 				synchronized (this) {
@@ -620,20 +667,20 @@ public class Benchmark {
 				}
 			}
 			for(int i=0; i<ls.size(); ++i) {
-				ls.get(i).addYarn(y, unique.get(i));
+				ls.get(i).addYarn(y, orig, unique.get(i));
 			}
 		}
-		public CompressibilityResult add(Corpus<?> corpus, List<HashSet<Object>> unique) {
+		public CompressibilityResult add(Corpus<?> corpus, List<HashSet<UniqueSubstring>> unique) {
 			AtomicInteger i = new AtomicInteger();
 			AtomicLong s = new AtomicLong();
 
 			corpus.data.parallelStream().forEach(str->{
 				Yarn orig = Yarn.of(str);
-				add(orig, unique);
+				add(orig, str, unique);
 
 				long ss = s.addAndGet(orig.longLength());
 				int ii = i.incrementAndGet();
-				if(ii%100==0) {
+				if(ii%10==0) {
 					System.out.println("Dedup: processed "+ii+" strings, total chars: "+ss);
 					System.gc();
 				}
@@ -651,7 +698,7 @@ public class Benchmark {
 		public String toTeX() {
 			StringBuilder sb = new StringBuilder();
 			sb.append("\\begin{tabular}{r|r|r|r|r|r|}\n");
-			sb.append("layer & #chunks & #unique & caterpillars & compressed & ratio \\\\\n");
+			sb.append("layer & \\#chunks & \\#unique & caterpillars & compressed & ratio \\\\\n");
 			sb.append("\\hline\n");
 			for(CompressibilityLayerResult l: ls) {
 				l.giveTeX(sb);
@@ -743,18 +790,22 @@ public class Benchmark {
 			}
 		}
 
-		public void addYarn(Yarn y, HashSet<Object> unique) {
+		public void addYarn(Yarn y, CharSequence orig, HashSet<UniqueSubstring> unique) {
 			ChonkerTreeZipper<?> at = new ChonkerTreeZipper<>(y.heComin).leftMost(levelTag);
+			int position = 0;
 			while(!at.isEnd()) {
-				add(at.node, unique);
+				add(at.node, orig, position, unique);
+				position += at.node.weight()/32;
 				at = at.right(levelTag);
 			}
 		}
 
-		public void add(ChonkerNode<?> node, HashSet<Object> unique) {
+		public void add(ChonkerNode<?> node, CharSequence orig, int offset, HashSet<UniqueSubstring> unique) {
 			boolean wasFirst;
+			ChonkersMonoidData<?> md = node.getMonoidData();
+			UniqueSubstring key = new UniqueSubstring(orig, offset, (int)(md.weight()/32), md.hashCode());
 			synchronized (unique) {
-				wasFirst = unique.add(node.getMonoidData());
+				wasFirst = unique.add(key);
 			}
 			if(wasFirst) {
 				addUnique(node);
@@ -942,9 +993,9 @@ public class Benchmark {
 
 	public static void main(String[] args) throws IOException {
 		Locale.setDefault(Locale.US);
-		Corpus<?> corpus = defaultFictionCorpus(-1);
-		//		Corpus<?> corpus = defaultKernelCorpus(-1);
-		//		Corpus<?> corpus = randomCorpus(10000, 10000, 4324324);
+//		Corpus<?> corpus = defaultFictionCorpus(-1);
+		Corpus<?> corpus = defaultKernelCorpus(-1);
+//		Corpus<?> corpus = randomCorpus(10000, 10000, 4324324);
 		System.out.println("Corpus loaded: "+corpus.data.size()+" strings, "+corpus.totalCharCount()+" chars");
 		//		corpus = corpus.toYarnCorpus();
 
