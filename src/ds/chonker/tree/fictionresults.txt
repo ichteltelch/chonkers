@@ -1,0 +1,956 @@
+/home/bb/progio/trainingdata/Corpus of German-Language Fiction
+/home/bb/progio/trainingdata/Corpus of German-Language Fiction/corpus-of-german-fiction-txt
+/home/bb/progio/trainingdata/Corpus of German-Language Fiction/corpus-of-translated-foreign-language-fiction-txt
+Corpus loaded: 3219 strings, 1075375991 chars
+Converted 10 strings, total chars: 3467557
+Converted 20 strings, total chars: 6005493
+Converted 30 strings, total chars: 9522519
+Converted 40 strings, total chars: 11628531
+Converted 50 strings, total chars: 16031783
+Converted 60 strings, total chars: 19171908
+Converted 70 strings, total chars: 23129482
+Converted 80 strings, total chars: 26454816
+Converted 90 strings, total chars: 30713837
+Converted 100 strings, total chars: 33423374
+Converted 110 strings, total chars: 36603526
+Converted 120 strings, total chars: 39873615
+Converted 130 strings, total chars: 44943578
+Converted 140 strings, total chars: 47385026
+Converted 150 strings, total chars: 52349692
+Converted 160 strings, total chars: 56011203
+Converted 170 strings, total chars: 59290611
+Converted 180 strings, total chars: 60839927
+Converted 190 strings, total chars: 64242659
+Converted 200 strings, total chars: 66368746
+Converted 210 strings, total chars: 70566820
+Converted 220 strings, total chars: 74619993
+Converted 230 strings, total chars: 78203222
+Converted 240 strings, total chars: 81403746
+Converted 250 strings, total chars: 84595739
+Converted 260 strings, total chars: 88098910
+Converted 270 strings, total chars: 91164258
+Converted 280 strings, total chars: 93382656
+Converted 290 strings, total chars: 97315072
+Converted 300 strings, total chars: 99927085
+Converted 310 strings, total chars: 103401267
+Converted 320 strings, total chars: 105657260
+Converted 330 strings, total chars: 108918821
+Converted 340 strings, total chars: 111373114
+Converted 350 strings, total chars: 116368195
+Converted 360 strings, total chars: 118578888
+Converted 370 strings, total chars: 121227624
+Converted 380 strings, total chars: 124176275
+Converted 390 strings, total chars: 127108997
+Converted 400 strings, total chars: 131102718
+Converted 410 strings, total chars: 134140814
+Converted 420 strings, total chars: 137440396
+Converted 430 strings, total chars: 139562013
+Converted 440 strings, total chars: 142327945
+Converted 450 strings, total chars: 145865344
+Converted 460 strings, total chars: 151611050
+Converted 470 strings, total chars: 153353299
+Converted 480 strings, total chars: 156502572
+Converted 490 strings, total chars: 159630765
+Converted 500 strings, total chars: 162645412
+Converted 510 strings, total chars: 167775029
+Converted 520 strings, total chars: 169927488
+Converted 530 strings, total chars: 173152742
+Converted 540 strings, total chars: 180159191
+Converted 550 strings, total chars: 183298958
+Converted 560 strings, total chars: 186648917
+Converted 570 strings, total chars: 189471308
+Converted 580 strings, total chars: 193433573
+Converted 590 strings, total chars: 199990045
+Converted 600 strings, total chars: 203867676
+Converted 610 strings, total chars: 206390667
+Converted 620 strings, total chars: 209841867
+Converted 630 strings, total chars: 213533802
+Converted 640 strings, total chars: 216511305
+Converted 650 strings, total chars: 220148525
+Converted 660 strings, total chars: 223499737
+Converted 670 strings, total chars: 225632600
+Converted 680 strings, total chars: 230429851
+Converted 690 strings, total chars: 232914743
+Converted 700 strings, total chars: 236564148
+Converted 710 strings, total chars: 239300264
+Converted 720 strings, total chars: 242552552
+Converted 730 strings, total chars: 244010160
+Converted 740 strings, total chars: 246925851
+Converted 750 strings, total chars: 252643630
+Converted 760 strings, total chars: 256416267
+Converted 770 strings, total chars: 258243536
+Converted 780 strings, total chars: 259981966
+Converted 790 strings, total chars: 263510667
+Converted 800 strings, total chars: 267301621
+Converted 810 strings, total chars: 269697800
+Converted 820 strings, total chars: 273637453
+Converted 830 strings, total chars: 275954336
+Converted 840 strings, total chars: 278217725
+Converted 850 strings, total chars: 281545833
+Converted 860 strings, total chars: 283996735
+Converted 870 strings, total chars: 287695455
+Converted 880 strings, total chars: 290022179
+Converted 890 strings, total chars: 292439016
+Converted 900 strings, total chars: 295557958
+Converted 910 strings, total chars: 300348275
+Converted 920 strings, total chars: 304258422
+Converted 930 strings, total chars: 307750676
+Converted 940 strings, total chars: 311635016
+Converted 950 strings, total chars: 315162466
+Converted 960 strings, total chars: 319218094
+Converted 970 strings, total chars: 321320567
+Converted 980 strings, total chars: 325028124
+Converted 990 strings, total chars: 329338653
+Converted 1000 strings, total chars: 331718070
+Converted 1010 strings, total chars: 339325703
+Converted 1020 strings, total chars: 340290557
+Converted 1030 strings, total chars: 344612142
+Converted 1040 strings, total chars: 348246635
+Converted 1050 strings, total chars: 353281459
+Converted 1060 strings, total chars: 357989134
+Converted 1070 strings, total chars: 360623363
+Converted 1080 strings, total chars: 362540516
+Converted 1090 strings, total chars: 364522070
+Converted 1100 strings, total chars: 367692322
+Converted 1110 strings, total chars: 372949763
+Converted 1120 strings, total chars: 376675523
+Converted 1130 strings, total chars: 380629434
+Converted 1140 strings, total chars: 383447147
+Converted 1150 strings, total chars: 386708808
+Converted 1160 strings, total chars: 389331403
+Converted 1170 strings, total chars: 392188899
+Converted 1180 strings, total chars: 397966808
+Converted 1190 strings, total chars: 401262231
+Converted 1200 strings, total chars: 404672026
+Converted 1210 strings, total chars: 408966309
+Converted 1220 strings, total chars: 411140017
+Converted 1230 strings, total chars: 414663618
+Converted 1240 strings, total chars: 419716275
+Converted 1250 strings, total chars: 422472247
+Converted 1260 strings, total chars: 425549352
+Converted 1270 strings, total chars: 428973934
+Converted 1280 strings, total chars: 432769502
+Converted 1290 strings, total chars: 436892440
+Converted 1300 strings, total chars: 441776875
+Converted 1310 strings, total chars: 445555200
+Converted 1320 strings, total chars: 447989697
+Converted 1330 strings, total chars: 450763902
+Converted 1340 strings, total chars: 455377121
+Converted 1350 strings, total chars: 457743608
+Converted 1360 strings, total chars: 460699235
+Converted 1370 strings, total chars: 462566024
+Converted 1380 strings, total chars: 464867128
+Converted 1390 strings, total chars: 470107811
+Converted 1400 strings, total chars: 473324102
+Converted 1410 strings, total chars: 477800589
+Converted 1420 strings, total chars: 484725342
+Converted 1430 strings, total chars: 488437708
+Converted 1440 strings, total chars: 491096570
+Converted 1450 strings, total chars: 495540122
+Converted 1460 strings, total chars: 499275476
+Converted 1470 strings, total chars: 502405212
+Converted 1480 strings, total chars: 507793620
+Converted 1490 strings, total chars: 511389936
+Converted 1500 strings, total chars: 514329896
+Converted 1510 strings, total chars: 521576911
+Converted 1520 strings, total chars: 526304643
+Converted 1530 strings, total chars: 529236799
+Converted 1540 strings, total chars: 532977671
+Converted 1550 strings, total chars: 536079432
+Converted 1560 strings, total chars: 540983950
+Converted 1570 strings, total chars: 543541277
+Converted 1580 strings, total chars: 545861639
+Converted 1590 strings, total chars: 548934592
+Converted 1600 strings, total chars: 550956947
+Converted 1610 strings, total chars: 553632176
+Converted 1620 strings, total chars: 555721656
+Converted 1630 strings, total chars: 560501624
+Converted 1640 strings, total chars: 562381705
+Converted 1650 strings, total chars: 566224723
+Converted 1660 strings, total chars: 569900792
+Converted 1670 strings, total chars: 572126602
+Converted 1680 strings, total chars: 574045420
+Converted 1690 strings, total chars: 577638956
+Converted 1700 strings, total chars: 581177824
+Converted 1710 strings, total chars: 584672145
+Converted 1720 strings, total chars: 588133691
+Converted 1730 strings, total chars: 589428336
+Converted 1740 strings, total chars: 592023959
+Converted 1750 strings, total chars: 595828504
+Converted 1760 strings, total chars: 598110366
+Converted 1770 strings, total chars: 600270573
+Converted 1780 strings, total chars: 603054758
+Converted 1790 strings, total chars: 605843182
+Converted 1800 strings, total chars: 611061397
+Converted 1810 strings, total chars: 613555974
+Converted 1820 strings, total chars: 616143933
+Converted 1830 strings, total chars: 619770612
+Converted 1840 strings, total chars: 623437536
+Converted 1850 strings, total chars: 627996856
+Converted 1860 strings, total chars: 631389359
+Converted 1870 strings, total chars: 635304804
+Converted 1880 strings, total chars: 637059512
+Converted 1890 strings, total chars: 641787262
+Converted 1900 strings, total chars: 644866678
+Converted 1910 strings, total chars: 647277683
+Converted 1920 strings, total chars: 651074758
+Converted 1930 strings, total chars: 656007758
+Converted 1940 strings, total chars: 661124441
+Converted 1950 strings, total chars: 664277842
+Converted 1960 strings, total chars: 668872256
+Converted 1970 strings, total chars: 671868896
+Converted 1980 strings, total chars: 675500639
+Converted 1990 strings, total chars: 679646490
+Converted 2000 strings, total chars: 683366490
+Converted 2010 strings, total chars: 685455757
+Converted 2020 strings, total chars: 687966704
+Converted 2030 strings, total chars: 691079452
+Converted 2040 strings, total chars: 695449695
+Converted 2050 strings, total chars: 698498319
+Converted 2060 strings, total chars: 701744118
+Converted 2070 strings, total chars: 705030928
+Converted 2080 strings, total chars: 708229945
+Converted 2090 strings, total chars: 709914467
+Converted 2100 strings, total chars: 712100925
+Converted 2110 strings, total chars: 715004907
+Converted 2120 strings, total chars: 722082524
+Converted 2130 strings, total chars: 726750424
+Converted 2140 strings, total chars: 728667878
+Converted 2150 strings, total chars: 732432750
+Converted 2160 strings, total chars: 735710050
+Converted 2170 strings, total chars: 737865433
+Converted 2180 strings, total chars: 742662648
+Converted 2190 strings, total chars: 747604359
+Converted 2200 strings, total chars: 751094532
+Converted 2210 strings, total chars: 755315731
+Converted 2220 strings, total chars: 759319468
+Converted 2230 strings, total chars: 762785139
+Converted 2240 strings, total chars: 765967996
+Converted 2250 strings, total chars: 770633948
+Converted 2260 strings, total chars: 774325265
+Converted 2270 strings, total chars: 776943360
+Converted 2280 strings, total chars: 779286129
+Converted 2290 strings, total chars: 781750642
+Converted 2300 strings, total chars: 785819651
+Converted 2310 strings, total chars: 787124687
+Converted 2320 strings, total chars: 789973185
+Converted 2330 strings, total chars: 793339910
+Converted 2340 strings, total chars: 797347967
+Converted 2350 strings, total chars: 800784044
+Converted 2360 strings, total chars: 804652462
+Converted 2370 strings, total chars: 807156220
+Converted 2380 strings, total chars: 809513297
+Converted 2390 strings, total chars: 811812621
+Converted 2400 strings, total chars: 814518873
+Converted 2410 strings, total chars: 818365125
+Converted 2420 strings, total chars: 823255097
+Converted 2430 strings, total chars: 826651764
+Converted 2440 strings, total chars: 830028920
+Converted 2450 strings, total chars: 834648195
+Converted 2460 strings, total chars: 837057562
+Converted 2470 strings, total chars: 841933485
+Converted 2480 strings, total chars: 845145756
+Converted 2490 strings, total chars: 848077497
+Converted 2500 strings, total chars: 850591393
+Converted 2510 strings, total chars: 854889220
+Converted 2520 strings, total chars: 858446180
+Converted 2530 strings, total chars: 860713306
+Converted 2540 strings, total chars: 863634218
+Converted 2550 strings, total chars: 866747818
+Converted 2560 strings, total chars: 869814394
+Converted 2570 strings, total chars: 873526024
+Converted 2580 strings, total chars: 876704467
+Converted 2590 strings, total chars: 878957186
+Converted 2600 strings, total chars: 881998942
+Converted 2610 strings, total chars: 884034396
+Converted 2620 strings, total chars: 887128316
+Converted 2630 strings, total chars: 891296395
+Converted 2640 strings, total chars: 893530540
+Converted 2650 strings, total chars: 897522167
+Converted 2660 strings, total chars: 903981200
+Converted 2670 strings, total chars: 906213079
+Converted 2680 strings, total chars: 908566952
+Converted 2690 strings, total chars: 912603194
+Converted 2700 strings, total chars: 915337397
+Converted 2710 strings, total chars: 917906143
+Converted 2720 strings, total chars: 920321397
+Converted 2730 strings, total chars: 924353944
+Converted 2740 strings, total chars: 928222235
+Converted 2750 strings, total chars: 929209030
+Converted 2760 strings, total chars: 932191137
+Converted 2770 strings, total chars: 934742673
+Converted 2780 strings, total chars: 938716063
+Converted 2790 strings, total chars: 940728858
+Converted 2800 strings, total chars: 943285660
+Converted 2810 strings, total chars: 946587727
+Converted 2820 strings, total chars: 950201526
+Converted 2830 strings, total chars: 953585527
+Converted 2840 strings, total chars: 956018577
+Converted 2850 strings, total chars: 957432441
+Converted 2860 strings, total chars: 959628897
+Converted 2870 strings, total chars: 960942965
+Converted 2880 strings, total chars: 962381240
+Converted 2890 strings, total chars: 963745253
+Converted 2900 strings, total chars: 968989408
+Converted 2910 strings, total chars: 971743947
+Converted 2920 strings, total chars: 975612474
+Converted 2930 strings, total chars: 978047155
+Converted 2940 strings, total chars: 982105856
+Converted 2950 strings, total chars: 987568683
+Converted 2960 strings, total chars: 989681505
+Converted 2970 strings, total chars: 994554033
+Converted 2980 strings, total chars: 997933862
+Converted 2990 strings, total chars: 1000456242
+Converted 3000 strings, total chars: 1006242445
+Converted 3010 strings, total chars: 1009915410
+Converted 3020 strings, total chars: 1014742836
+Converted 3030 strings, total chars: 1017290409
+Converted 3040 strings, total chars: 1020618409
+Converted 3050 strings, total chars: 1022922689
+Converted 3060 strings, total chars: 1024510646
+Converted 3070 strings, total chars: 1028676203
+Converted 3080 strings, total chars: 1032456073
+Converted 3090 strings, total chars: 1035072200
+Converted 3100 strings, total chars: 1036726710
+Converted 3110 strings, total chars: 1039648051
+Converted 3120 strings, total chars: 1042303546
+Converted 3130 strings, total chars: 1044511196
+Converted 3140 strings, total chars: 1046943343
+Converted 3150 strings, total chars: 1048735995
+Converted 3160 strings, total chars: 1052129961
+Converted 3170 strings, total chars: 1055654443
+Converted 3180 strings, total chars: 1061090242
+Converted 3190 strings, total chars: 1064463603
+Converted 3200 strings, total chars: 1068198240
+Converted 3210 strings, total chars: 1073105057
+149339008
+145355272
+Size: Processed 100 strings, total chars: 37334335
+149339008
+145355272
+Size: Processed 200 strings, total chars: 72888798
+149339008
+145355272
+Size: Processed 300 strings, total chars: 106115993
+149339008
+145355272
+Size: Processed 400 strings, total chars: 140884976
+149339008
+145355272
+Size: Processed 500 strings, total chars: 172264402
+149339008
+145355272
+Size: Processed 600 strings, total chars: 213849222
+149339008
+145355272
+Size: Processed 700 strings, total chars: 246922668
+149339008
+145355272
+Size: Processed 800 strings, total chars: 282921161
+149339008
+145355272
+Size: Processed 900 strings, total chars: 316745587
+149339008
+145355272
+Size: Processed 1000 strings, total chars: 351300944
+149339008
+145355272
+Size: Processed 1100 strings, total chars: 382856407
+149339008
+145355272
+Size: Processed 1200 strings, total chars: 416223095
+149339008
+145355272
+Size: Processed 1300 strings, total chars: 449227011
+149339008
+145355272
+Size: Processed 1400 strings, total chars: 479491702
+149339008
+145355272
+Size: Processed 1500 strings, total chars: 514332278
+149339008
+145355272
+Size: Processed 1600 strings, total chars: 545667660
+149339008
+145355272
+Size: Processed 1700 strings, total chars: 581513764
+149339008
+145355272
+Size: Processed 1800 strings, total chars: 620556575
+149339008
+145355272
+Size: Processed 1900 strings, total chars: 654945607
+149339008
+145355272
+Size: Processed 2000 strings, total chars: 687603414
+149339008
+145355272
+Size: Processed 2100 strings, total chars: 725541289
+149339008
+145355272
+Size: Processed 2300 strings, total chars: 792139773
+149339008
+145355272
+Size: Processed 2200 strings, total chars: 759061820
+149339008
+145355272
+Size: Processed 2400 strings, total chars: 826918590
+149339008
+145355272
+Size: Processed 2500 strings, total chars: 854981873
+149339008
+145355272
+Size: Processed 2600 strings, total chars: 885985155
+149339008
+145355272
+Size: Processed 2700 strings, total chars: 915325896
+149339008
+145355272
+Size: Processed 2800 strings, total chars: 947834653
+149339008
+145355272
+Size: Processed 2900 strings, total chars: 976647966
+149339008
+145355272
+Size: Processed 3100 strings, total chars: 1030792436
+149339008
+145355272
+Size: Processed 3000 strings, total chars: 1005314487
+149339008
+145355272
+Size: Processed 3200 strings, total chars: 1068779411
+GaussianSizeResult{levels=23}
+  Level 0: 
+    avg: Gaussian(mean=0.9696969696969697, stdDev=0.0, min=0.9696969696969697, max=0.9696969696969697)
+    stdDev: Gaussian(mean=0.0, stdDev=0.0, min=0.0, max=0.0)
+    min: Gaussian(mean=0.9696969696969697, stdDev=0.0, min=0.9696969696969697, max=0.9696969696969697)
+    max: Gaussian(mean=0.9696969696969697, stdDev=0.0, min=0.9696969696969697, max=0.9696969696969697)
+    maxSeg: Gaussian(mean=0.9696969696969697, stdDev=0.0, min=0.9696969696969697, max=0.9696969696969697)
+    minPair: Gaussian(mean=1.9393939393939394, stdDev=0.0, min=1.9393939393939394, max=1.9393939393939394)
+  Level 1: 
+    avg: Gaussian(mean=0.8703897012944231, stdDev=0.010288105327538549, min=0.8457454009474157, max=1.2709774368467797)
+    stdDev: Gaussian(mean=0.2495563816359291, stdDev=0.09744070331574844, min=0.19726173124825933, max=2.0638186267613365)
+    min: Gaussian(mean=0.49230769230769234, stdDev=0.0, min=0.49230769230769234, max=0.49230769230769234)
+    max: Gaussian(mean=16.80529548115755, stdDev=17.205495536702152, min=0.9846153846153847, max=80.73846153846154)
+    maxSeg: Gaussian(mean=0.9846153846153847, stdDev=0.0, min=0.9846153846153847, max=0.9846153846153847)
+    minPair: Gaussian(mean=1.7407740627763186, stdDev=0.02054923484929825, min=1.6914901065888674, max=2.541982776066378)
+  Level 2: 
+    avg: Gaussian(mean=0.7714071255536514, stdDev=0.007957811875726842, min=0.7540646223502778, max=1.092569684974435)
+    stdDev: Gaussian(mean=0.20866045302554218, stdDev=0.05547069018786866, min=0.1782102869263277, max=1.2653704568965003)
+    min: Gaussian(mean=0.285591124404276, stdDev=0.08888820157388527, min=0.24806201550387597, max=0.49612403100775193)
+    max: Gaussian(mean=8.824041362934707, stdDev=8.38221330272882, min=0.9922480620155039, max=40.68217054263566)
+    maxSeg: Gaussian(mean=0.9922480620155039, stdDev=0.0, min=0.9922480620155039, max=0.9922480620155039)
+    minPair: Gaussian(mean=1.542813024089722, stdDev=0.0158954362337163, min=1.5093195521102498, max=2.185238521416573)
+  Level 3: 
+    avg: Gaussian(mean=0.7329984003385048, stdDev=0.006008213394994932, min=0.7069160286180495, max=0.9825007010379998)
+    stdDev: Gaussian(mean=0.19289883602784655, stdDev=0.029152736825859036, min=0.17332076054509093, max=0.7316702979774472)
+    min: Gaussian(mean=0.3418612494152545, stdDev=0.06225195151342328, min=0.1245136186770428, max=0.3735408560311284)
+    max: Gaussian(mean=4.575672411979939, stdDev=4.090872177778417, min=0.9961089494163424, max=20.420233463035018)
+    maxSeg: Gaussian(mean=0.9961089494163424, stdDev=0.0, min=0.9961089494163424, max=0.9961089494163424)
+    minPair: Gaussian(mean=1.4659915790948514, stdDev=0.01199873884780859, min=1.410252072407376, max=1.9650900620308214)
+  Level 4: 
+    avg: Gaussian(mean=0.7179004545753882, stdDev=0.0037917438038058615, min=0.6892787524366472, max=0.8356088513610731)
+    stdDev: Gaussian(mean=0.18669606014499618, stdDev=0.013280130217090446, min=0.16400889071403418, max=0.3771091693030998)
+    min: Gaussian(mean=0.30317068429591115, stdDev=0.0361830233084821, min=0.06237816764132553, max=0.3742690058479532)
+    max: Gaussian(mean=2.5445990455064864, stdDev=1.8425216613940227, min=0.9980506822612085, max=10.230019493177387)
+    maxSeg: Gaussian(mean=0.9980506822612085, stdDev=0.0, min=0.9980506822612085, max=0.9980506822612085)
+    minPair: Gaussian(mean=1.4358149128003048, stdDev=0.007571679298522812, min=1.3779904306220094, max=1.6713248213946863)
+  Level 5: 
+    avg: Gaussian(mean=0.7067228973448101, stdDev=0.0036052924285674493, min=0.6702439024390244, max=0.7288800398208064)
+    stdDev: Gaussian(mean=0.1816588232223109, stdDev=0.005247501786531972, min=0.14732963567463386, max=0.2638089480500885)
+    min: Gaussian(mean=0.27556383970177073, stdDev=0.03292943982596431, min=0.03121951219512195, max=0.3746341463414634)
+    max: Gaussian(mean=1.5476886474363345, stdDev=0.7023278449301504, min=0.9365853658536585, max=5.12)
+    maxSeg: Gaussian(mean=0.9989952947059759, stdDev=0.0012300681355947602, min=0.9365853658536585, max=0.9990243902439024)
+    minPair: Gaussian(mean=1.4134777504057205, stdDev=0.0072069990264027484, min=1.339417781274587, max=1.4582113821138212)
+  Level 6: 
+    avg: Gaussian(mean=0.7014610730628039, stdDev=0.004829494594272069, min=0.6343056650523707, max=0.7478742636394256)
+    stdDev: Gaussian(mean=0.1795299917985568, stdDev=0.002970066843674233, min=0.13889427846987307, max=0.2065862136295887)
+    min: Gaussian(mean=0.26989093399958247, stdDev=0.04122055021786186, min=0.031234748657881894, max=0.4372864812103465)
+    max: Gaussian(mean=1.0850848829341282, stdDev=0.11652280515724786, min=0.9370424597364568, max=2.5612493899463153)
+    maxSeg: Gaussian(mean=0.9994052213469591, stdDev=0.0018638695340140298, min=0.9370424597364568, max=0.9995119570522206)
+    minPair: Gaussian(mean=1.4029530627457996, stdDev=0.009587636599462294, min=1.267610216365707, max=1.4921285644565294)
+  Level 7: 
+    avg: Gaussian(mean=0.6986673753066637, stdDev=0.006734316496629878, min=0.6225042714181108, max=0.7702446442988303)
+    stdDev: Gaussian(mean=0.17900967567988135, stdDev=0.004283967805862728, min=0.13018410196964889, max=0.2607100636490714)
+    min: Gaussian(mean=0.28127840835204504, stdDev=0.023353397932376573, min=0.03905296558457408, max=0.4920673663656334)
+    max: Gaussian(mean=1.0007774348713472, stdDev=0.04693991589617487, min=0.8513546497437149, max=3.1242372467659263)
+    maxSeg: Gaussian(mean=0.9993312983389827, stdDev=0.004548127655077848, min=0.8513546497437149, max=0.9997559189650964)
+    minPair: Gaussian(mean=1.3974040287448806, stdDev=0.013794387115181992, min=1.2132454641607682, max=1.5261898950451551)
+  Level 8: 
+    avg: Gaussian(mean=0.6973413096628918, stdDev=0.010006579457813402, min=0.5721957768827047, max=0.8377883559135848)
+    stdDev: Gaussian(mean=0.17851443838861042, stdDev=0.00685208069657338, min=0.00585865983156353, max=0.22683796393851113)
+    min: Gaussian(mean=0.28895563071499636, stdDev=0.02919048296114927, min=0.12107896985231295, max=0.8319296960820213)
+    max: Gaussian(mean=0.9983746041019492, stdDev=0.015146578953310676, min=0.7147564994507506, max=1.5623092884169414)
+    maxSeg: Gaussian(mean=0.9981222273296668, stdDev=0.010531655698200425, min=0.7147564994507506, max=0.9998779445868424)
+    minPair: Gaussian(mean=1.3947595311243484, stdDev=0.019910172203724347, min=1.2092273892347127, max=1.6755767118271696)
+  Level 9: 
+    avg: Gaussian(mean=0.696772109190294, stdDev=0.01422395321088025, min=0.5155935306682942, max=0.8411874972753826)
+    stdDev: Gaussian(mean=0.17804584316675656, stdDev=0.008763759847218501, min=0.04071755586821957, max=0.24559465298021863)
+    min: Gaussian(mean=0.2986593757687011, stdDev=0.0369633297840642, min=0.17381751602075068, max=0.6698809887091852)
+    max: Gaussian(mean=0.9961136747388858, stdDev=0.016891770506633142, min=0.5878547451937748, max=0.9999389685688129)
+    maxSeg: Gaussian(mean=0.9961136747388858, stdDev=0.016891770506633142, min=0.5878547451937748, max=0.9999389685688129)
+    minPair: Gaussian(mean=1.39373752661289, stdDev=0.028493785621609376, min=1.0311870613365883, max=1.6929305258874987)
+  Level 10: 
+    avg: Gaussian(mean=0.696545699835589, stdDev=0.01891205809839505, min=0.4882663492935396, max=0.9071988769873967)
+    stdDev: Gaussian(mean=0.17777294067675276, stdDev=0.011775431489793821, min=0.029295980957612378, max=0.254906835136366)
+    min: Gaussian(mean=0.3103301811934926, stdDev=0.04572770463342955, min=0.15624523177393268, max=0.8779028960297842)
+    max: Gaussian(mean=0.992487188942651, stdDev=0.023997710063669207, min=0.6464646464646464, max=0.9999694833531692)
+    maxSeg: Gaussian(mean=0.992487188942651, stdDev=0.023997710063669207, min=0.6464646464646464, max=0.9999694833531692)
+    minPair: Gaussian(mean=1.3933233009700752, stdDev=0.03738448580793283, min=1.0790686319387226, max=1.8143977539747933)
+  Level 11: 
+    avg: Gaussian(mean=0.6954880260958085, stdDev=0.025550190778057924, min=0.5087812991134779, max=0.9622249009465391)
+    stdDev: Gaussian(mean=0.17633127595559275, stdDev=0.017004847959135434, min=0.005859285594397058, max=0.28480675842838166)
+    min: Gaussian(mean=0.3259499552205412, stdDev=0.059532564829565246, min=0.1577124372491875, max=0.9404153379007278)
+    max: Gaussian(mean=0.9865396158181191, stdDev=0.034776169933230745, min=0.5478432030761249, max=0.9999847414437646)
+    maxSeg: Gaussian(mean=0.9865396158181191, stdDev=0.034776169933230745, min=0.5478432030761249, max=0.9999847414437646)
+    minPair: Gaussian(mean=1.3912142147865367, stdDev=0.050798155935259715, min=1.0175625982269558, max=1.9135450203701725)
+  Level 12: 
+    avg: Gaussian(mean=0.6947390021575974, stdDev=0.03400938907959062, min=0.4918907784211851, max=0.9378590556407498)
+    stdDev: Gaussian(mean=0.1750069033909149, stdDev=0.023651690342153427, min=0.0039062201979049842, max=0.3144507259313512)
+    min: Gaussian(mean=0.34419191373130464, stdDev=0.07538498692807273, min=0.13818253950088882, max=0.9052665308644801)
+    max: Gaussian(mean=0.9768277617429653, stdDev=0.04920521594257089, min=0.5598101821122581, max=0.999992370663676)
+    maxSeg: Gaussian(mean=0.9768277617429653, stdDev=0.04920521594257089, min=0.5598101821122581, max=0.999992370663676)
+    minPair: Gaussian(mean=1.3903849793916458, stdDev=0.06887017583818303, min=1.0048751459110572, max=1.8757181112814996)
+  Level 13: 
+    avg: Gaussian(mean=0.6931246348981832, stdDev=0.04380311594305347, min=0.5004253371225849, max=0.9543827525478902)
+    stdDev: Gaussian(mean=0.1719026757327365, stdDev=0.030837044729733722, min=0.0018920826260275803, max=0.3020008010833699)
+    min: Gaussian(mean=0.3658496671921562, stdDev=0.0893493217916593, min=0.16088805813576457, max=0.9354212363386676)
+    max: Gaussian(mean=0.9630065967548955, stdDev=0.06747790452924594, min=0.5328348814587347, max=0.9999961853172863)
+    maxSeg: Gaussian(mean=0.9630065967548955, stdDev=0.06747790452924594, min=0.5328348814587347, max=0.9999961853172863)
+    minPair: Gaussian(mean=1.387835101358581, stdDev=0.0873392471948781, min=1.0008506742451697, max=1.8992847469911691)
+  Level 14: 
+    avg: Gaussian(mean=0.6910923353987524, stdDev=0.05163784071909252, min=0.46142490115184565, max=0.9644451819511758)
+    stdDev: Gaussian(mean=0.16917476895655126, stdDev=0.03689952021613401, min=0.0025939891929832593, max=0.32362775338993244)
+    min: Gaussian(mean=0.3869380229004495, stdDev=0.09543634238876239, min=0.19226037547993569, max=0.9531842171016367)
+    max: Gaussian(mean=0.9486077636573246, stdDev=0.0778709647487712, min=0.5136708952505202, max=0.9999980926550052)
+    maxSeg: Gaussian(mean=0.9486077636573246, stdDev=0.0778709647487712, min=0.5136708952505202, max=0.9999980926550052)
+    minPair: Gaussian(mean=1.3843396704230022, stdDev=0.10124818637807623, min=1.0023784592085663, max=1.9288903639023516)
+  Level 15: 
+    avg: Gaussian(mean=0.6906119905573436, stdDev=0.06065357120008858, min=0.47610428227969903, max=0.967192681128806)
+    stdDev: Gaussian(mean=0.16602040781886834, stdDev=0.042458236678578246, min=4.4250446080736083E-4, max=0.35673488928328584)
+    min: Gaussian(mean=0.4125212146429651, stdDev=0.10864222600945224, min=0.17150862549912882, max=0.9562063634811749)
+    max: Gaussian(mean=0.9337773947625551, stdDev=0.08357387472260938, min=0.5133051745365386, max=0.9999990463265931)
+    maxSeg: Gaussian(mean=0.9337773947625551, stdDev=0.08357387472260938, min=0.5133051745365386, max=0.9999990463265931)
+    minPair: Gaussian(mean=1.383795295637373, stdDev=0.12086512348885271, min=1.0041341742189653, max=1.934385362257612)
+  Level 16: 
+    avg: Gaussian(mean=0.68691413574557, stdDev=0.0691573517774427, min=0.46827675424730575, max=0.9633860762662524)
+    stdDev: Gaussian(mean=0.1631616014737644, stdDev=0.048124671356841175, min=2.975462448376442E-4, max=0.33181746873022616)
+    min: Gaussian(mean=0.43634526469438384, stdDev=0.11157741576171959, min=0.17346183134945328, max=0.952697299624777)
+    max: Gaussian(mean=0.9108555455268187, stdDev=0.09107884923950679, min=0.514770262350911, max=0.999938488035923)
+    maxSeg: Gaussian(mean=0.9108555455268187, stdDev=0.09107884923950679, min=0.514770262350911, max=0.999938488035923)
+    minPair: Gaussian(mean=1.3776878259085228, stdDev=0.1377651456326582, min=1.0005183217438118, max=1.9267721525325048)
+  Level 17: 
+    avg: Gaussian(mean=0.6820482893969615, stdDev=0.08182725984367716, min=0.46684254006325243, max=0.9776837878981143)
+    stdDev: Gaussian(mean=0.1553905850699072, stdDev=0.05881208437072698, min=1.4495846153295957E-4, max=0.3481507097874607)
+    min: Gaussian(mean=0.46628490456318905, stdDev=0.12512579162005408, min=0.12099453902374768, max=0.9735639158334932)
+    max: Gaussian(mean=0.8783522440178311, stdDev=0.10616098009338304, min=0.5232237522068615, max=0.9999997615814777)
+    maxSeg: Gaussian(mean=0.8783522440178311, stdDev=0.10616098009338304, min=0.5232237522068615, max=0.9999997615814777)
+    minPair: Gaussian(mean=1.3687198883606784, stdDev=0.16462553327864402, min=1.0000989436867371, max=1.9553675757962286)
+  Level 18: 
+    avg: Gaussian(mean=0.665480369931313, stdDev=0.09579375324532786, min=0.4446575906287522, max=0.9700754916577945)
+    stdDev: Gaussian(mean=0.14697363024065635, stdDev=0.0705099290720406, min=0.001207351540642793, max=0.38423152157884577)
+    min: Gaussian(mean=0.4885979161398903, stdDev=0.13349126865563551, min=0.17119977817538046, max=0.9653281014766573)
+    max: Gaussian(mean=0.8333671133771892, stdDev=0.1186598888621065, min=0.5122489318550907, max=0.9997023344394762)
+    maxSeg: Gaussian(mean=0.8333671133771892, stdDev=0.1186598888621065, min=0.5122489318550907, max=0.9997023344394762)
+    minPair: Gaussian(mean=1.3367158913983004, stdDev=0.1908923194660295, min=1.0000609159396987, max=1.940150983315589)
+  Level 19: 
+    avg: Gaussian(mean=0.6473395725726815, stdDev=0.09594665531437124, min=0.45453895402715877, max=0.9603003883182771)
+    stdDev: Gaussian(mean=0.1409877989437091, stdDev=0.0774661574628755, min=2.374648906311458E-4, max=0.3646468898864454)
+    min: Gaussian(mean=0.49097025275097844, stdDev=0.13255335891637915, min=0.1743507281332774, max=0.9363459982665778)
+    max: Gaussian(mean=0.7980051177452695, stdDev=0.12205422972672358, min=0.5220126794569088, max=0.999820649634561)
+    maxSeg: Gaussian(mean=0.7980051177452695, stdDev=0.12205422972672358, min=0.5220126794569088, max=0.999820649634561)
+    minPair: Gaussian(mean=1.3028155924535878, stdDev=0.19335181959368486, min=1.0000266432746265, max=1.9206007766365543)
+  Level 20: 
+    avg: Gaussian(mean=0.6234985217311261, stdDev=0.10211108096605755, min=0.4889379991410772, max=0.9688839623664629)
+    stdDev: Gaussian(mean=0.1261485443398426, stdDev=0.08302674573549677, min=0.004572868210885876, max=0.35030602364820174)
+    min: Gaussian(mean=0.49446407813373455, stdDev=0.144016270471825, min=0.17382144409950245, max=0.9574298573306246)
+    max: Gaussian(mean=0.7567122633821732, stdDev=0.12351504193794748, min=0.5149402464944051, max=0.9915523233547114)
+    maxSeg: Gaussian(mean=0.7567122633821732, stdDev=0.12351504193794748, min=0.5149402464944051, max=0.9915523233547114)
+    minPair: Gaussian(mean=1.2511125444416322, stdDev=0.19978524070755754, min=1.0028609930616321, max=1.9377679247329258)
+  Level 21: 
+    avg: Gaussian(mean=0.5598878560299678, stdDev=0.028206685566212135, min=0.506613485416569, max=0.61524151838956)
+    stdDev: Gaussian(mean=0.1610990650653252, stdDev=0.056535472576437665, min=0.010837316351572925, max=0.23480524847831852)
+    min: Gaussian(mean=0.3941433587730243, stdDev=0.05054321916757393, min=0.3388228365954334, max=0.4957761690649961)
+    max: Gaussian(mean=0.7485274723527077, stdDev=0.10366955467847223, min=0.517450801768142, max=0.910155282763313)
+    maxSeg: Gaussian(mean=0.7485274723527077, stdDev=0.10366955467847223, min=0.517450801768142, max=0.910155282763313)
+    minPair: Gaussian(mean=1.1385013598517284, stdDev=0.07518038928624739, min=1.013226970833138, max=1.2730488587461581)
+  Level 22: 
+    avg: Gaussian(mean=0.5994692996183835, stdDev=0.015772223355082993, min=0.5836970762633005, max=0.6152415229734665)
+    stdDev: Gaussian(mean=0.1085218183061345, stdDev=0.06772983023725576, min=0.04079198806887874, max=0.17625164854339026)
+    min: Gaussian(mean=0.49094748131224897, stdDev=0.05195760688217277, min=0.4389898744300762, max=0.5429050881944217)
+    max: Gaussian(mean=0.707991117924518, stdDev=0.08350205359233875, min=0.6244890643321792, max=0.7914931715168567)
+    maxSeg: Gaussian(mean=0.707991117924518, stdDev=0.08350205359233875, min=0.6244890643321792, max=0.7914931715168567)
+    minPair: Gaussian(mean=1.198938599236767, stdDev=0.031544446710165985, min=1.167394152526601, max=1.230483045946933)
+Locality: processed 100 strings, total chars: 31206964
+Locality: processed 200 strings, total chars: 65207827
+Locality: processed 300 strings, total chars: 98417192
+Locality: processed 400 strings, total chars: 129230111
+Locality: processed 500 strings, total chars: 161756929
+Locality: processed 600 strings, total chars: 204322029
+Locality: processed 700 strings, total chars: 235692050
+Locality: processed 800 strings, total chars: 268446811
+Locality: processed 900 strings, total chars: 300740941
+Locality: processed 1000 strings, total chars: 325462629
+Locality: processed 1100 strings, total chars: 359075174
+Locality: processed 1200 strings, total chars: 393275811
+Locality: processed 1300 strings, total chars: 422175237
+Locality: processed 1400 strings, total chars: 460519894
+Locality: processed 1500 strings, total chars: 493540846
+Locality: processed 1600 strings, total chars: 523747005
+Locality: processed 1700 strings, total chars: 560303540
+Locality: processed 1800 strings, total chars: 600454809
+Locality: processed 1900 strings, total chars: 629712671
+Locality: processed 2000 strings, total chars: 661185334
+Locality: processed 2100 strings, total chars: 704134528
+Locality: processed 2200 strings, total chars: 734253702
+Locality: processed 2300 strings, total chars: 767379246
+Locality: processed 2400 strings, total chars: 801259752
+Locality: processed 2500 strings, total chars: 839742623
+Locality: processed 2600 strings, total chars: 875226219
+Locality: processed 2700 strings, total chars: 905079326
+Locality: processed 2800 strings, total chars: 939446639
+Locality: processed 2900 strings, total chars: 970293099
+Locality: processed 3000 strings, total chars: 1004342020
+Locality: processed 3100 strings, total chars: 1041552225
+Locality: processed 3200 strings, total chars: 1071037573
+GaussianLocalityResult{levels=23}
+  Level 0: 
+    chunksLeftOrig: Gaussian(mean=0.0, stdDev=0.0, min=0.0, max=0.0)
+    chunksRightOrig: Gaussian(mean=0.0, stdDev=0.0, min=0.0, max=0.0)
+    chunksLeftModi: Gaussian(mean=0.0, stdDev=0.0, min=0.0, max=0.0)
+    chunksRightModi: Gaussian(mean=0.0, stdDev=0.0, min=0.0, max=0.0)
+    weightLeft: Gaussian(mean=0.0, stdDev=0.0, min=0.0, max=0.0)
+    WeightRight: Gaussian(mean=0.0, stdDev=0.0, min=0.0, max=0.0)
+  Level 1: 
+    chunksLeftOrig: Gaussian(mean=0.690000345172759, stdDev=0.6180606786154454, min=0.0, max=4.0)
+    chunksRightOrig: Gaussian(mean=1.448413931172552, stdDev=0.5583440823773803, min=1.0, max=3.0)
+    chunksLeftModi: Gaussian(mean=0.7101239170204687, stdDev=0.6449186620051323, min=0.0, max=4.0)
+    chunksRightModi: Gaussian(mean=0.907735321528425, stdDev=0.6844570583472218, min=0.0, max=3.0)
+    weightLeft: Gaussian(mean=0.08807534324775705, stdDev=0.24806656166259664, min=0.0, max=2.4615384615384617)
+    WeightRight: Gaussian(mean=0.4442341545789822, stdDev=0.4819671106283987, min=0.0, max=1.9692307692307693)
+  Level 2: 
+    chunksLeftOrig: Gaussian(mean=1.0182251216733975, stdDev=0.6472895121440588, min=0.0, max=4.0)
+    chunksRightOrig: Gaussian(mean=1.8706292499395947, stdDev=0.7447101178774589, min=1.0, max=4.0)
+    chunksLeftModi: Gaussian(mean=1.030789410099755, stdDev=0.6615349724447944, min=0.0, max=4.0)
+    chunksRightModi: Gaussian(mean=1.564875220047634, stdDev=0.7518072073148291, min=0.0, max=4.0)
+    weightLeft: Gaussian(mean=0.16169283424028144, stdDev=0.31655754234135747, min=0.0, max=2.7286821705426356)
+    WeightRight: Gaussian(mean=0.6094477262614125, stdDev=0.5274632998613352, min=0.0, max=2.4806201550387597)
+  Level 3: 
+    chunksLeftOrig: Gaussian(mean=1.2569811190500846, stdDev=0.694852436480902, min=0.0, max=5.0)
+    chunksRightOrig: Gaussian(mean=2.0386593490041767, stdDev=0.8264696427066159, min=1.0, max=5.0)
+    chunksLeftModi: Gaussian(mean=1.262124193158676, stdDev=0.7008781327415495, min=0.0, max=5.0)
+    chunksRightModi: Gaussian(mean=1.8748058403230816, stdDev=0.8008512777502726, min=0.0, max=5.0)
+    weightLeft: Gaussian(mean=0.20910001642592546, stdDev=0.38628166634352096, min=0.0, max=3.11284046692607)
+    WeightRight: Gaussian(mean=0.6388269391087049, stdDev=0.5412167781892416, min=0.0, max=2.8638132295719845)
+  Level 4: 
+    chunksLeftOrig: Gaussian(mean=1.3934969452210832, stdDev=0.7081953632656699, min=0.0, max=6.0)
+    chunksRightOrig: Gaussian(mean=2.0500155327741534, stdDev=0.8518452802708845, min=1.0, max=5.0)
+    chunksLeftModi: Gaussian(mean=1.3947740844292569, stdDev=0.7119828907728343, min=0.0, max=6.0)
+    chunksRightModi: Gaussian(mean=1.9667253460356908, stdDev=0.8433625183498449, min=0.0, max=5.0)
+    weightLeft: Gaussian(mean=0.22732041714363416, stdDev=0.39841606540566643, min=0.0, max=3.181286549707602)
+    WeightRight: Gaussian(mean=0.6050516470628052, stdDev=0.5497286874346021, min=0.0, max=3.056530214424951)
+  Level 5: 
+    chunksLeftOrig: Gaussian(mean=1.4341582962272617, stdDev=0.6954825696070792, min=0.0, max=7.0)
+    chunksRightOrig: Gaussian(mean=2.0038659349004178, stdDev=0.8688370839262973, min=1.0, max=6.0)
+    chunksLeftModi: Gaussian(mean=1.4386800593697144, stdDev=0.6961437870317926, min=0.0, max=6.0)
+    chunksRightModi: Gaussian(mean=1.9572330951641297, stdDev=0.8597804301533215, min=0.0, max=5.0)
+    weightLeft: Gaussian(mean=0.22287936380451098, stdDev=0.3885479629782069, min=0.0, max=4.027317073170732)
+    WeightRight: Gaussian(mean=0.5496826010198592, stdDev=0.5435068915460605, min=0.0, max=2.8097560975609754)
+  Level 6: 
+    chunksLeftOrig: Gaussian(mean=1.4389907148527838, stdDev=0.6861328075214511, min=0.0, max=6.0)
+    chunksRightOrig: Gaussian(mean=1.9293776535155847, stdDev=0.8790652675875613, min=1.0, max=6.0)
+    chunksLeftModi: Gaussian(mean=1.439059749404577, stdDev=0.684577663368511, min=0.0, max=6.0)
+    chunksRightModi: Gaussian(mean=1.907321114217666, stdDev=0.8731288457498504, min=0.0, max=5.0)
+    weightLeft: Gaussian(mean=0.21143804143080494, stdDev=0.3812783845026756, min=0.0, max=3.1859443631039532)
+    WeightRight: Gaussian(mean=0.49783096234687424, stdDev=0.5412666718236613, min=0.0, max=2.8423621278672524)
+  Level 7: 
+    chunksLeftOrig: Gaussian(mean=1.4303613958786372, stdDev=0.672498416500403, min=0.0, max=6.0)
+    chunksRightOrig: Gaussian(mean=1.8500224362293327, stdDev=0.8799647972720832, min=1.0, max=6.0)
+    chunksLeftModi: Gaussian(mean=1.4269096682889786, stdDev=0.6660964016041997, min=0.0, max=7.0)
+    chunksRightModi: Gaussian(mean=1.8424286355320838, stdDev=0.8793043651391994, min=0.0, max=5.0)
+    weightLeft: Gaussian(mean=0.2005853917681748, stdDev=0.3707474208546635, min=0.0, max=3.092994874298267)
+    WeightRight: Gaussian(mean=0.44861506149412356, stdDev=0.5347642177387021, min=0.0, max=2.882108860141567)
+  Level 8: 
+    chunksLeftOrig: Gaussian(mean=1.4121362742052397, stdDev=0.6634251963322864, min=0.0, max=6.0)
+    chunksRightOrig: Gaussian(mean=1.7777432605018813, stdDev=0.87023284052412, min=1.0, max=6.0)
+    chunksLeftModi: Gaussian(mean=1.4097890994442719, stdDev=0.6621203533921646, min=0.0, max=6.0)
+    chunksRightModi: Gaussian(mean=1.7712885299092196, stdDev=0.8717916232673925, min=0.0, max=5.0)
+    weightLeft: Gaussian(mean=0.1892353933835939, stdDev=0.36411571924740893, min=0.0, max=3.3628707433174663)
+    WeightRight: Gaussian(mean=0.4081319331596061, stdDev=0.5213700552849, min=0.0, max=2.956670328329061)
+  Level 9: 
+    chunksLeftOrig: Gaussian(mean=1.3859885367032663, stdDev=0.6545942915213143, min=0.0, max=6.0)
+    chunksRightOrig: Gaussian(mean=1.7043712450797597, stdDev=0.8579606587530314, min=1.0, max=5.0)
+    chunksLeftModi: Gaussian(mean=1.3827774324977558, stdDev=0.6482469170323403, min=0.0, max=6.0)
+    chunksRightModi: Gaussian(mean=1.7025412609626407, stdDev=0.8594798703346124, min=0.0, max=6.0)
+    weightLeft: Gaussian(mean=0.17586162432661176, stdDev=0.3569516048435397, min=0.0, max=3.142386328959414)
+    WeightRight: Gaussian(mean=0.36720777535628696, stdDev=0.5083128158845077, min=0.0, max=2.9529447665547757)
+  Level 10: 
+    chunksLeftOrig: Gaussian(mean=1.359780128604024, stdDev=0.6347571905244264, min=0.0, max=6.0)
+    chunksRightOrig: Gaussian(mean=1.6442301044043421, stdDev=0.8475304242959354, min=1.0, max=5.0)
+    chunksLeftModi: Gaussian(mean=1.356530457028279, stdDev=0.633976065437694, min=0.0, max=6.0)
+    chunksRightModi: Gaussian(mean=1.6461660789601051, stdDev=0.8485849673024685, min=0.0, max=5.0)
+    weightLeft: Gaussian(mean=0.16274410650976917, stdDev=0.34669340946587435, min=0.0, max=3.237205895816168)
+    WeightRight: Gaussian(mean=0.3356778655080207, stdDev=0.4981173547192847, min=0.0, max=2.6083188379260887)
+  Level 11: 
+    chunksLeftOrig: Gaussian(mean=1.3259143699081297, stdDev=0.6103935688063001, min=0.0, max=6.0)
+    chunksRightOrig: Gaussian(mean=1.586999479979199, stdDev=0.8271046431115663, min=1.0, max=6.0)
+    chunksLeftModi: Gaussian(mean=1.3294158433003986, stdDev=0.6159010062258412, min=0.0, max=6.0)
+    chunksRightModi: Gaussian(mean=1.5867221355520889, stdDev=0.8330226061963985, min=0.0, max=5.0)
+    weightLeft: Gaussian(mean=0.14855249186545577, stdDev=0.3345840591203895, min=0.0, max=3.6308039733280437)
+    WeightRight: Gaussian(mean=0.3041126141437009, stdDev=0.48274368124522377, min=0.0, max=2.895951905030746)
+  Level 12: 
+    chunksLeftOrig: Gaussian(mean=1.300212669525503, stdDev=0.5859476791141736, min=1.0, max=6.0)
+    chunksRightOrig: Gaussian(mean=1.5302095317784052, stdDev=0.8000752466252014, min=1.0, max=6.0)
+    chunksLeftModi: Gaussian(mean=1.300177805668863, stdDev=0.5848637891774096, min=1.0, max=5.0)
+    chunksRightModi: Gaussian(mean=1.5296168462155284, stdDev=0.7997487335321188, min=1.0, max=6.0)
+    weightLeft: Gaussian(mean=0.1344291709536, stdDev=0.3122755004356154, min=0.0, max=3.1091071387699984)
+    WeightRight: Gaussian(mean=0.27387665617253487, stdDev=0.46328757252481817, min=0.0, max=2.9819108435757173)
+  Level 13: 
+    chunksLeftOrig: Gaussian(mean=1.2699633308412546, stdDev=0.5592097860622399, min=1.0, max=6.0)
+    chunksRightOrig: Gaussian(mean=1.4813628110648296, stdDev=0.7712133044077514, min=1.0, max=5.0)
+    chunksLeftModi: Gaussian(mean=1.2713873758410765, stdDev=0.5604925930023968, min=1.0, max=6.0)
+    chunksRightModi: Gaussian(mean=1.4779807041902524, stdDev=0.7701077890914312, min=1.0, max=5.0)
+    weightLeft: Gaussian(mean=0.12083519393161975, stdDev=0.29750911646486433, min=0.0, max=3.0688359495698947)
+    WeightRight: Gaussian(mean=0.2463209669838926, stdDev=0.4431381522066124, min=0.0, max=2.883411852219192)
+  Level 14: 
+    chunksLeftOrig: Gaussian(mean=1.254820316602896, stdDev=0.5508164977684896, min=1.0, max=6.0)
+    chunksRightOrig: Gaussian(mean=1.4324405431765324, stdDev=0.734885345845282, min=1.0, max=5.0)
+    chunksLeftModi: Gaussian(mean=1.254820316602896, stdDev=0.5535339100099667, min=1.0, max=6.0)
+    chunksRightModi: Gaussian(mean=1.433378347963088, stdDev=0.7382302267796904, min=1.0, max=5.0)
+    weightLeft: Gaussian(mean=0.11529904815352535, stdDev=0.2961513235965928, min=0.0, max=3.1424500609396726)
+    WeightRight: Gaussian(mean=0.21968739263479506, stdDev=0.41880616730464937, min=0.0, max=2.8767645325383517)
+  Level 15: 
+    chunksLeftOrig: Gaussian(mean=1.2338945827232797, stdDev=0.5264236491809666, min=1.0, max=6.0)
+    chunksRightOrig: Gaussian(mean=1.3915324548560273, stdDev=0.703234441510086, min=1.0, max=5.0)
+    chunksLeftModi: Gaussian(mean=1.2360501057426387, stdDev=0.5318077400294978, min=1.0, max=6.0)
+    chunksRightModi: Gaussian(mean=1.3937693183666828, stdDev=0.7058842327230755, min=1.0, max=5.0)
+    weightLeft: Gaussian(mean=0.10472266116215996, stdDev=0.2808352513956688, min=0.0, max=3.1189850626134277)
+    WeightRight: Gaussian(mean=0.19604788744895826, stdDev=0.3961802571332612, min=0.0, max=2.9770174245668177)
+  Level 16: 
+    chunksLeftOrig: Gaussian(mean=1.2070291048874244, stdDev=0.4893801872453855, min=1.0, max=5.0)
+    chunksRightOrig: Gaussian(mean=1.3414332784184515, stdDev=0.658710289402692, min=1.0, max=5.0)
+    chunksLeftModi: Gaussian(mean=1.208264689730917, stdDev=0.4909573759733086, min=1.0, max=5.0)
+    chunksRightModi: Gaussian(mean=1.340975654402343, stdDev=0.6536479534404526, min=1.0, max=5.0)
+    weightLeft: Gaussian(mean=0.09014289924644463, stdDev=0.253039740719492, min=0.0, max=2.9563584535796865)
+    WeightRight: Gaussian(mean=0.16813879289385944, stdDev=0.365532892276743, min=0.0, max=2.5710284371240437)
+  Level 17: 
+    chunksLeftOrig: Gaussian(mean=1.1744471744471745, stdDev=0.44209570141297067, min=1.0, max=5.0)
+    chunksRightOrig: Gaussian(mean=1.2813540813540814, stdDev=0.5886905015558728, min=1.0, max=5.0)
+    chunksLeftModi: Gaussian(mean=1.1713895713895714, stdDev=0.43696319653968047, min=1.0, max=5.0)
+    chunksRightModi: Gaussian(mean=1.2841932841932842, stdDev=0.5914937090536211, min=1.0, max=5.0)
+    weightLeft: Gaussian(mean=0.0721530626683447, stdDev=0.2167177566034299, min=0.0, max=2.712683984593395)
+    WeightRight: Gaussian(mean=0.13418504961261152, stdDev=0.3190319505077549, min=0.0, max=2.5699227881615667)
+  Level 18: 
+    chunksLeftOrig: Gaussian(mean=1.1348843951583678, stdDev=0.3797799552690021, min=1.0, max=4.0)
+    chunksRightOrig: Gaussian(mean=1.210553018772197, stdDev=0.49299973738786174, min=1.0, max=5.0)
+    chunksLeftModi: Gaussian(mean=1.1309705008335145, stdDev=0.37770898785911533, min=1.0, max=5.0)
+    chunksRightModi: Gaussian(mean=1.211712691164746, stdDev=0.4938255588969965, min=1.0, max=5.0)
+    weightLeft: Gaussian(mean=0.05176343920801492, stdDev=0.17537974749614074, min=0.0, max=2.327048977965238)
+    WeightRight: Gaussian(mean=0.09324225563701792, stdDev=0.25204032467437465, min=0.0, max=2.1887967361454086)
+  Level 19: 
+    chunksLeftOrig: Gaussian(mean=1.1158681617397215, stdDev=0.3470613279484849, min=1.0, max=4.0)
+    chunksRightOrig: Gaussian(mean=1.1705742439687394, stdDev=0.42491698516763465, min=1.0, max=5.0)
+    chunksLeftModi: Gaussian(mean=1.1106014271151885, stdDev=0.33864234718178504, min=1.0, max=5.0)
+    chunksRightModi: Gaussian(mean=1.1743119266055047, stdDev=0.4313480680898481, min=1.0, max=4.0)
+    weightLeft: Gaussian(mean=0.04258686295316494, stdDev=0.1527550885661983, min=0.0, max=2.098340863088318)
+    WeightRight: Gaussian(mean=0.0706358788760918, stdDev=0.20593495551517899, min=0.0, max=2.2149294486683937)
+  Level 20: 
+    chunksLeftOrig: Gaussian(mean=1.0838709677419356, stdDev=0.28484680756643005, min=1.0, max=3.0)
+    chunksRightOrig: Gaussian(mean=1.1397849462365592, stdDev=0.36685423890820895, min=1.0, max=4.0)
+    chunksLeftModi: Gaussian(mean=1.0903225806451613, stdDev=0.29405014426042275, min=1.0, max=3.0)
+    chunksRightModi: Gaussian(mean=1.1419354838709677, stdDev=0.38231212660064834, min=1.0, max=4.0)
+    weightLeft: Gaussian(mean=0.026960644209040992, stdDev=0.10309001353390103, min=0.0, max=0.8813447689609298)
+    WeightRight: Gaussian(mean=0.05036346736652798, stdDev=0.16702675015605975, min=0.0, max=2.1350020726024486)
+  Level 21: 
+    chunksLeftOrig: Gaussian(mean=1.101010101010101, stdDev=0.36223072882911306, min=1.0, max=3.0)
+    chunksRightOrig: Gaussian(mean=1.1515151515151516, stdDev=0.4110503020075919, min=1.0, max=3.0)
+    chunksLeftModi: Gaussian(mean=1.0404040404040404, stdDev=0.24284475313477338, min=1.0, max=3.0)
+    chunksRightModi: Gaussian(mean=1.1515151515151516, stdDev=0.38569460791993526, min=1.0, max=3.0)
+    weightLeft: Gaussian(mean=0.03432693815617145, stdDev=0.15395965900085185, min=0.0, max=1.0306520308457012)
+    WeightRight: Gaussian(mean=0.05290928193444873, stdDev=0.18294905969022768, min=0.0, max=1.2459497266121249)
+  Level 22: 
+    chunksLeftOrig: Gaussian(mean=1.0, stdDev=0.0, min=1.0, max=1.0)
+    chunksRightOrig: Gaussian(mean=1.0, stdDev=0.0, min=1.0, max=1.0)
+    chunksLeftModi: Gaussian(mean=1.0, stdDev=0.0, min=1.0, max=1.0)
+    chunksRightModi: Gaussian(mean=1.0, stdDev=0.0, min=1.0, max=1.0)
+    weightLeft: Gaussian(mean=0.0, stdDev=0.0, min=0.0, max=0.0)
+    WeightRight: Gaussian(mean=0.0, stdDev=0.0, min=0.0, max=0.0)
+Phase census: Processed 0 strings. Total weight: 18376
+Phase census: Processed 100 strings. Total weight: 38795654
+Phase census: Processed 200 strings. Total weight: 71700708
+Phase census: Processed 300 strings. Total weight: 100242463
+Phase census: Processed 400 strings. Total weight: 137267374
+Phase census: Processed 500 strings. Total weight: 177545572
+Phase census: Processed 600 strings. Total weight: 219433537
+Phase census: Processed 700 strings. Total weight: 248887238
+Phase census: Processed 800 strings. Total weight: 280150514
+Phase census: Processed 900 strings. Total weight: 312749007
+Phase census: Processed 1000 strings. Total weight: 343227900
+Phase census: Processed 1100 strings. Total weight: 377091202
+Phase census: Processed 1200 strings. Total weight: 413039963
+Phase census: Processed 1300 strings. Total weight: 444089605
+Phase census: Processed 1400 strings. Total weight: 475709958
+Phase census: Processed 1500 strings. Total weight: 505287878
+Phase census: Processed 1600 strings. Total weight: 540087871
+Phase census: Processed 1700 strings. Total weight: 569636713
+Phase census: Processed 1800 strings. Total weight: 602427450
+Phase census: Processed 1900 strings. Total weight: 639215861
+Phase census: Processed 2000 strings. Total weight: 677079451
+Phase census: Processed 2100 strings. Total weight: 709740251
+Phase census: Processed 2200 strings. Total weight: 747527264
+Phase census: Processed 2300 strings. Total weight: 783972986
+Phase census: Processed 2400 strings. Total weight: 816010627
+Phase census: Processed 2500 strings. Total weight: 845411379
+Phase census: Processed 2600 strings. Total weight: 876265248
+Phase census: Processed 2700 strings. Total weight: 901730877
+Phase census: Processed 2800 strings. Total weight: 937743632
+Phase census: Processed 2900 strings. Total weight: 971671182
+Phase census: Processed 3000 strings. Total weight: 1008032523
+Phase census: Processed 3100 strings. Total weight: 1038691968
+Phase census: Processed 3200 strings. Total weight: 1070751592
+PhaseCensus:
+Balancing 0: 0.7498357263623806
+Balancing 1: 0.02132183872614173
+Caterpillar: 0.018579248695594082
+Diffbit 0: 0.16605924024588847
+Diffbit 1: 0.041588638075401835
+Diffbit 2: 0.0018970060286119946
+Diffbit 3: 9.313140847600428E-5
+Diffbit 4: 5.963833872277711E-4
+Diffbit 5: 2.8787070277471136E-5
+
+\begin{tabular}{r|r|r|r|r|r|r|}
+layer & chunks left orig & chunks right orig & chunks left modified & chunks right modified & left & right \\
+\hline
+$1$ & $0.01 \pm 0.01 \in [0.00; 0.06]$ & $0.02 \pm 0.01 \in [0.02; 0.05]$ & $0.01 \pm 0.01 \in [0.00; 0.06]$ & $0.01 \pm 0.01 \in [0.00; 0.05]$ & $0.088 \pm 0.248 \leq 2.4615$ & $0.444 \pm 0.482 \leq 1.9692$ \\
+$2$ & $0.01 \pm 0.01 \in [0.00; 0.03]$ & $0.01 \pm 0.01 \in [0.01; 0.03]$ & $0.01 \pm 0.01 \in [0.00; 0.03]$ & $0.01 \pm 0.01 \in [0.00; 0.03]$ & $0.162 \pm 0.317 \leq 2.7287$ & $0.609 \pm 0.527 \leq 2.4806$ \\
+$3$ & $0.00 \pm 0.00 \in [0.00; 0.02]$ & $0.01 \pm 0.00 \in [0.00; 0.02]$ & $0.00 \pm 0.00 \in [0.00; 0.02]$ & $0.01 \pm 0.00 \in [0.00; 0.02]$ & $0.209 \pm 0.386 \leq 3.1128$ & $0.639 \pm 0.541 \leq 2.8638$ \\
+$4$ & $0.00 \pm 0.00 \in [0.00; 0.01]$ & $0.00 \pm 0.00 \in [0.00; 0.01]$ & $0.00 \pm 0.00 \in [0.00; 0.01]$ & $0.00 \pm 0.00 \in [0.00; 0.01]$ & $0.227 \pm 0.398 \leq 3.1813$ & $0.605 \pm 0.550 \leq 3.0565$ \\
+$5$ & $0.00 \pm 0.00 \in [0.00; 0.01]$ & $0.00 \pm 0.00 \in [0.00; 0.01]$ & $0.00 \pm 0.00 \in [0.00; 0.01]$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.223 \pm 0.389 \leq 4.0273$ & $0.550 \pm 0.544 \leq 2.8098$ \\
+$6$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.211 \pm 0.381 \leq 3.1859$ & $0.498 \pm 0.541 \leq 2.8424$ \\
+$7$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.201 \pm 0.371 \leq 3.0930$ & $0.449 \pm 0.535 \leq 2.8821$ \\
+$8$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.189 \pm 0.364 \leq 3.3629$ & $0.408 \pm 0.521 \leq 2.9567$ \\
+$9$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.176 \pm 0.357 \leq 3.1424$ & $0.367 \pm 0.508 \leq 2.9529$ \\
+$10$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.163 \pm 0.347 \leq 3.2372$ & $0.336 \pm 0.498 \leq 2.6083$ \\
+$11$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.149 \pm 0.335 \leq 3.6308$ & $0.304 \pm 0.483 \leq 2.8960$ \\
+$12$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.134 \pm 0.312 \leq 3.1091$ & $0.274 \pm 0.463 \leq 2.9819$ \\
+$13$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.121 \pm 0.298 \leq 3.0688$ & $0.246 \pm 0.443 \leq 2.8834$ \\
+$14$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.115 \pm 0.296 \leq 3.1425$ & $0.220 \pm 0.419 \leq 2.8768$ \\
+$15$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.105 \pm 0.281 \leq 3.1190$ & $0.196 \pm 0.396 \leq 2.9770$ \\
+$16$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.090 \pm 0.253 \leq 2.9564$ & $0.168 \pm 0.366 \leq 2.5710$ \\
+$17$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.072 \pm 0.217 \leq 2.7127$ & $0.134 \pm 0.319 \leq 2.5699$ \\
+$18$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.052 \pm 0.175 \leq 2.3270$ & $0.093 \pm 0.252 \leq 2.1888$ \\
+$19$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.043 \pm 0.153 \leq 2.0983$ & $0.071 \pm 0.206 \leq 2.2149$ \\
+$20$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.027 \pm 0.103 \leq 0.8813$ & $0.050 \pm 0.167 \leq 2.1350$ \\
+$21$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.034 \pm 0.154 \leq 1.0307$ & $0.053 \pm 0.183 \leq 1.2459$ \\
+$22$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.00 \pm 0.00 \in [0.00; 0.00]$ & $0.000 \pm 0.000 \leq 0.0000$ & $0.000 \pm 0.000 \leq 0.0000$ \\
+\hline
+\end{tabular}
+\begin{tabular}{r|r|r|r|r|r|r|}
+layer & average & $\sigma$ & min & max & max segment & min pair \\\hline
+$1$ & $0.87 \pm 0.01 \in [0.85; 1.27]$ & $0.25 \pm 0.10 \in [0.20; 2.06]$ & $0.49 \pm 0.00 \in [0.49; 0.49]$ & $16.81 \pm 17.21 \in [0.98; 80.74]$ & $0.98 \pm 0.00 \in [0.98; 0.98]$ & $1.74 \pm 0.02 \in [1.69; 2.54]$ \\
+$2$ & $0.77 \pm 0.01 \in [0.75; 1.09]$ & $0.21 \pm 0.06 \in [0.18; 1.27]$ & $0.29 \pm 0.09 \in [0.25; 0.50]$ & $8.82 \pm 8.38 \in [0.99; 40.68]$ & $0.99 \pm 0.00 \in [0.99; 0.99]$ & $1.54 \pm 0.02 \in [1.51; 2.19]$ \\
+$3$ & $0.73 \pm 0.01 \in [0.71; 0.98]$ & $0.19 \pm 0.03 \in [0.17; 0.73]$ & $0.34 \pm 0.06 \in [0.12; 0.37]$ & $4.58 \pm 4.09 \in [1.00; 20.42]$ & $1.00 \pm 0.00 \in [1.00; 1.00]$ & $1.47 \pm 0.01 \in [1.41; 1.97]$ \\
+$4$ & $0.72 \pm 0.00 \in [0.69; 0.84]$ & $0.19 \pm 0.01 \in [0.16; 0.38]$ & $0.30 \pm 0.04 \in [0.06; 0.37]$ & $2.54 \pm 1.84 \in [1.00; 10.23]$ & $1.00 \pm 0.00 \in [1.00; 1.00]$ & $1.44 \pm 0.01 \in [1.38; 1.67]$ \\
+$5$ & $0.71 \pm 0.00 \in [0.67; 0.73]$ & $0.18 \pm 0.01 \in [0.15; 0.26]$ & $0.28 \pm 0.03 \in [0.03; 0.37]$ & $1.55 \pm 0.70 \in [0.94; 5.12]$ & $1.00 \pm 0.00 \in [0.94; 1.00]$ & $1.41 \pm 0.01 \in [1.34; 1.46]$ \\
+$6$ & $0.70 \pm 0.00 \in [0.63; 0.75]$ & $0.18 \pm 0.00 \in [0.14; 0.21]$ & $0.27 \pm 0.04 \in [0.03; 0.44]$ & $1.09 \pm 0.12 \in [0.94; 2.56]$ & $1.00 \pm 0.00 \in [0.94; 1.00]$ & $1.40 \pm 0.01 \in [1.27; 1.49]$ \\
+$7$ & $0.70 \pm 0.01 \in [0.62; 0.77]$ & $0.18 \pm 0.00 \in [0.13; 0.26]$ & $0.28 \pm 0.02 \in [0.04; 0.49]$ & $1.00 \pm 0.05 \in [0.85; 3.12]$ & $1.00 \pm 0.00 \in [0.85; 1.00]$ & $1.40 \pm 0.01 \in [1.21; 1.53]$ \\
+$8$ & $0.70 \pm 0.01 \in [0.57; 0.84]$ & $0.18 \pm 0.01 \in [0.01; 0.23]$ & $0.29 \pm 0.03 \in [0.12; 0.83]$ & $1.00 \pm 0.02 \in [0.71; 1.56]$ & $1.00 \pm 0.01 \in [0.71; 1.00]$ & $1.39 \pm 0.02 \in [1.21; 1.68]$ \\
+$9$ & $0.70 \pm 0.01 \in [0.52; 0.84]$ & $0.18 \pm 0.01 \in [0.04; 0.25]$ & $0.30 \pm 0.04 \in [0.17; 0.67]$ & $1.00 \pm 0.02 \in [0.59; 1.00]$ & $1.00 \pm 0.02 \in [0.59; 1.00]$ & $1.39 \pm 0.03 \in [1.03; 1.69]$ \\
+$10$ & $0.70 \pm 0.02 \in [0.49; 0.91]$ & $0.18 \pm 0.01 \in [0.03; 0.25]$ & $0.31 \pm 0.05 \in [0.16; 0.88]$ & $0.99 \pm 0.02 \in [0.65; 1.00]$ & $0.99 \pm 0.02 \in [0.65; 1.00]$ & $1.39 \pm 0.04 \in [1.08; 1.81]$ \\
+$11$ & $0.70 \pm 0.03 \in [0.51; 0.96]$ & $0.18 \pm 0.02 \in [0.01; 0.28]$ & $0.33 \pm 0.06 \in [0.16; 0.94]$ & $0.99 \pm 0.03 \in [0.55; 1.00]$ & $0.99 \pm 0.03 \in [0.55; 1.00]$ & $1.39 \pm 0.05 \in [1.02; 1.91]$ \\
+$12$ & $0.69 \pm 0.03 \in [0.49; 0.94]$ & $0.18 \pm 0.02 \in [0.00; 0.31]$ & $0.34 \pm 0.08 \in [0.14; 0.91]$ & $0.98 \pm 0.05 \in [0.56; 1.00]$ & $0.98 \pm 0.05 \in [0.56; 1.00]$ & $1.39 \pm 0.07 \in [1.00; 1.88]$ \\
+$13$ & $0.69 \pm 0.04 \in [0.50; 0.95]$ & $0.17 \pm 0.03 \in [0.00; 0.30]$ & $0.37 \pm 0.09 \in [0.16; 0.94]$ & $0.96 \pm 0.07 \in [0.53; 1.00]$ & $0.96 \pm 0.07 \in [0.53; 1.00]$ & $1.39 \pm 0.09 \in [1.00; 1.90]$ \\
+$14$ & $0.69 \pm 0.05 \in [0.46; 0.96]$ & $0.17 \pm 0.04 \in [0.00; 0.32]$ & $0.39 \pm 0.10 \in [0.19; 0.95]$ & $0.95 \pm 0.08 \in [0.51; 1.00]$ & $0.95 \pm 0.08 \in [0.51; 1.00]$ & $1.38 \pm 0.10 \in [1.00; 1.93]$ \\
+$15$ & $0.69 \pm 0.06 \in [0.48; 0.97]$ & $0.17 \pm 0.04 \in [0.00; 0.36]$ & $0.41 \pm 0.11 \in [0.17; 0.96]$ & $0.93 \pm 0.08 \in [0.51; 1.00]$ & $0.93 \pm 0.08 \in [0.51; 1.00]$ & $1.38 \pm 0.12 \in [1.00; 1.93]$ \\
+$16$ & $0.69 \pm 0.07 \in [0.47; 0.96]$ & $0.16 \pm 0.05 \in [0.00; 0.33]$ & $0.44 \pm 0.11 \in [0.17; 0.95]$ & $0.91 \pm 0.09 \in [0.51; 1.00]$ & $0.91 \pm 0.09 \in [0.51; 1.00]$ & $1.38 \pm 0.14 \in [1.00; 1.93]$ \\
+$17$ & $0.68 \pm 0.08 \in [0.47; 0.98]$ & $0.16 \pm 0.06 \in [0.00; 0.35]$ & $0.47 \pm 0.13 \in [0.12; 0.97]$ & $0.88 \pm 0.11 \in [0.52; 1.00]$ & $0.88 \pm 0.11 \in [0.52; 1.00]$ & $1.37 \pm 0.16 \in [1.00; 1.96]$ \\
+$18$ & $0.67 \pm 0.10 \in [0.44; 0.97]$ & $0.15 \pm 0.07 \in [0.00; 0.38]$ & $0.49 \pm 0.13 \in [0.17; 0.97]$ & $0.83 \pm 0.12 \in [0.51; 1.00]$ & $0.83 \pm 0.12 \in [0.51; 1.00]$ & $1.34 \pm 0.19 \in [1.00; 1.94]$ \\
+$19$ & $0.65 \pm 0.10 \in [0.45; 0.96]$ & $0.14 \pm 0.08 \in [0.00; 0.36]$ & $0.49 \pm 0.13 \in [0.17; 0.94]$ & $0.80 \pm 0.12 \in [0.52; 1.00]$ & $0.80 \pm 0.12 \in [0.52; 1.00]$ & $1.30 \pm 0.19 \in [1.00; 1.92]$ \\
+$20$ & $0.62 \pm 0.10 \in [0.49; 0.97]$ & $0.13 \pm 0.08 \in [0.00; 0.35]$ & $0.49 \pm 0.14 \in [0.17; 0.96]$ & $0.76 \pm 0.12 \in [0.51; 0.99]$ & $0.76 \pm 0.12 \in [0.51; 0.99]$ & $1.25 \pm 0.20 \in [1.00; 1.94]$ \\
+$21$ & $0.56 \pm 0.03 \in [0.51; 0.62]$ & $0.16 \pm 0.06 \in [0.01; 0.23]$ & $0.39 \pm 0.05 \in [0.34; 0.50]$ & $0.75 \pm 0.10 \in [0.52; 0.91]$ & $0.75 \pm 0.10 \in [0.52; 0.91]$ & $1.14 \pm 0.08 \in [1.01; 1.27]$ \\
+$22$ & $0.60 \pm 0.02 \in [0.58; 0.62]$ & $0.11 \pm 0.07 \in [0.04; 0.18]$ & $0.49 \pm 0.05 \in [0.44; 0.54]$ & $0.71 \pm 0.08 \in [0.62; 0.79]$ & $0.71 \pm 0.08 \in [0.62; 0.79]$ & $1.20 \pm 0.03 \in [1.17; 1.23]$ \\
+\hline
+\end{tabular}
+\begin{tabular}{r|r|r|}
+layer & left & right \\
+\hline
+$1$ & $0.088 \pm 0.248 \leq 2.4615$ & $0.444 \pm 0.482 \leq 1.9692$ \\
+$2$ & $0.162 \pm 0.317 \leq 2.7287$ & $0.609 \pm 0.527 \leq 2.4806$ \\
+$3$ & $0.209 \pm 0.386 \leq 3.1128$ & $0.639 \pm 0.541 \leq 2.8638$ \\
+$4$ & $0.227 \pm 0.398 \leq 3.1813$ & $0.605 \pm 0.550 \leq 3.0565$ \\
+$5$ & $0.223 \pm 0.389 \leq 4.0273$ & $0.550 \pm 0.544 \leq 2.8098$ \\
+$6$ & $0.211 \pm 0.381 \leq 3.1859$ & $0.498 \pm 0.541 \leq 2.8424$ \\
+$7$ & $0.201 \pm 0.371 \leq 3.0930$ & $0.449 \pm 0.535 \leq 2.8821$ \\
+$8$ & $0.189 \pm 0.364 \leq 3.3629$ & $0.408 \pm 0.521 \leq 2.9567$ \\
+$9$ & $0.176 \pm 0.357 \leq 3.1424$ & $0.367 \pm 0.508 \leq 2.9529$ \\
+$10$ & $0.163 \pm 0.347 \leq 3.2372$ & $0.336 \pm 0.498 \leq 2.6083$ \\
+$11$ & $0.149 \pm 0.335 \leq 3.6308$ & $0.304 \pm 0.483 \leq 2.8960$ \\
+$12$ & $0.134 \pm 0.312 \leq 3.1091$ & $0.274 \pm 0.463 \leq 2.9819$ \\
+$13$ & $0.121 \pm 0.298 \leq 3.0688$ & $0.246 \pm 0.443 \leq 2.8834$ \\
+$14$ & $0.115 \pm 0.296 \leq 3.1425$ & $0.220 \pm 0.419 \leq 2.8768$ \\
+$15$ & $0.105 \pm 0.281 \leq 3.1190$ & $0.196 \pm 0.396 \leq 2.9770$ \\
+$16$ & $0.090 \pm 0.253 \leq 2.9564$ & $0.168 \pm 0.366 \leq 2.5710$ \\
+$17$ & $0.072 \pm 0.217 \leq 2.7127$ & $0.134 \pm 0.319 \leq 2.5699$ \\
+$18$ & $0.052 \pm 0.175 \leq 2.3270$ & $0.093 \pm 0.252 \leq 2.1888$ \\
+$19$ & $0.043 \pm 0.153 \leq 2.0983$ & $0.071 \pm 0.206 \leq 2.2149$ \\
+$20$ & $0.027 \pm 0.103 \leq 0.8813$ & $0.050 \pm 0.167 \leq 2.1350$ \\
+$21$ & $0.034 \pm 0.154 \leq 1.0307$ & $0.053 \pm 0.183 \leq 1.2459$ \\
+$22$ & $0.000 \pm 0.000 \leq 0.0000$ & $0.000 \pm 0.000 \leq 0.0000$ \\
+\hline
+\end{tabular}
+\begin{tabular}{r|r|r|r|r|}
+layer & average & $\sigma$ & max segment & min pair \\\hline
+$1$ & $0.87 \pm 0.01 \in [0.85; 1.27]$ & $0.250 \pm 0.097$ & $0.98 \pm 0.00 \in [0.98; 0.98]$ & $1.74 \pm 0.02 \in [1.69; 2.54]$ \\
+$2$ & $0.77 \pm 0.01 \in [0.75; 1.09]$ & $0.209 \pm 0.055$ & $0.99 \pm 0.00 \in [0.99; 0.99]$ & $1.54 \pm 0.02 \in [1.51; 2.19]$ \\
+$3$ & $0.73 \pm 0.01 \in [0.71; 0.98]$ & $0.193 \pm 0.029$ & $1.00 \pm 0.00 \in [1.00; 1.00]$ & $1.47 \pm 0.01 \in [1.41; 1.97]$ \\
+$4$ & $0.72 \pm 0.00 \in [0.69; 0.84]$ & $0.187 \pm 0.013$ & $1.00 \pm 0.00 \in [1.00; 1.00]$ & $1.44 \pm 0.01 \in [1.38; 1.67]$ \\
+$5$ & $0.71 \pm 0.00 \in [0.67; 0.73]$ & $0.182 \pm 0.005$ & $1.00 \pm 0.00 \in [0.94; 1.00]$ & $1.41 \pm 0.01 \in [1.34; 1.46]$ \\
+$6$ & $0.70 \pm 0.00 \in [0.63; 0.75]$ & $0.180 \pm 0.003$ & $1.00 \pm 0.00 \in [0.94; 1.00]$ & $1.40 \pm 0.01 \in [1.27; 1.49]$ \\
+$7$ & $0.70 \pm 0.01 \in [0.62; 0.77]$ & $0.179 \pm 0.004$ & $1.00 \pm 0.00 \in [0.85; 1.00]$ & $1.40 \pm 0.01 \in [1.21; 1.53]$ \\
+$8$ & $0.70 \pm 0.01 \in [0.57; 0.84]$ & $0.179 \pm 0.007$ & $1.00 \pm 0.01 \in [0.71; 1.00]$ & $1.39 \pm 0.02 \in [1.21; 1.68]$ \\
+$9$ & $0.70 \pm 0.01 \in [0.52; 0.84]$ & $0.178 \pm 0.009$ & $1.00 \pm 0.02 \in [0.59; 1.00]$ & $1.39 \pm 0.03 \in [1.03; 1.69]$ \\
+$10$ & $0.70 \pm 0.02 \in [0.49; 0.91]$ & $0.178 \pm 0.012$ & $0.99 \pm 0.02 \in [0.65; 1.00]$ & $1.39 \pm 0.04 \in [1.08; 1.81]$ \\
+$11$ & $0.70 \pm 0.03 \in [0.51; 0.96]$ & $0.176 \pm 0.017$ & $0.99 \pm 0.03 \in [0.55; 1.00]$ & $1.39 \pm 0.05 \in [1.02; 1.91]$ \\
+$12$ & $0.69 \pm 0.03 \in [0.49; 0.94]$ & $0.175 \pm 0.024$ & $0.98 \pm 0.05 \in [0.56; 1.00]$ & $1.39 \pm 0.07 \in [1.00; 1.88]$ \\
+$13$ & $0.69 \pm 0.04 \in [0.50; 0.95]$ & $0.172 \pm 0.031$ & $0.96 \pm 0.07 \in [0.53; 1.00]$ & $1.39 \pm 0.09 \in [1.00; 1.90]$ \\
+$14$ & $0.69 \pm 0.05 \in [0.46; 0.96]$ & $0.169 \pm 0.037$ & $0.95 \pm 0.08 \in [0.51; 1.00]$ & $1.38 \pm 0.10 \in [1.00; 1.93]$ \\
+$15$ & $0.69 \pm 0.06 \in [0.48; 0.97]$ & $0.166 \pm 0.042$ & $0.93 \pm 0.08 \in [0.51; 1.00]$ & $1.38 \pm 0.12 \in [1.00; 1.93]$ \\
+$16$ & $0.69 \pm 0.07 \in [0.47; 0.96]$ & $0.163 \pm 0.048$ & $0.91 \pm 0.09 \in [0.51; 1.00]$ & $1.38 \pm 0.14 \in [1.00; 1.93]$ \\
+$17$ & $0.68 \pm 0.08 \in [0.47; 0.98]$ & $0.155 \pm 0.059$ & $0.88 \pm 0.11 \in [0.52; 1.00]$ & $1.37 \pm 0.16 \in [1.00; 1.96]$ \\
+$18$ & $0.67 \pm 0.10 \in [0.44; 0.97]$ & $0.147 \pm 0.071$ & $0.83 \pm 0.12 \in [0.51; 1.00]$ & $1.34 \pm 0.19 \in [1.00; 1.94]$ \\
+$19$ & $0.65 \pm 0.10 \in [0.45; 0.96]$ & $0.141 \pm 0.077$ & $0.80 \pm 0.12 \in [0.52; 1.00]$ & $1.30 \pm 0.19 \in [1.00; 1.92]$ \\
+$20$ & $0.62 \pm 0.10 \in [0.49; 0.97]$ & $0.126 \pm 0.083$ & $0.76 \pm 0.12 \in [0.51; 0.99]$ & $1.25 \pm 0.20 \in [1.00; 1.94]$ \\
+$21$ & $0.56 \pm 0.03 \in [0.51; 0.62]$ & $0.161 \pm 0.057$ & $0.75 \pm 0.10 \in [0.52; 0.91]$ & $1.14 \pm 0.08 \in [1.01; 1.27]$ \\
+$22$ & $0.60 \pm 0.02 \in [0.58; 0.62]$ & $0.109 \pm 0.068$ & $0.71 \pm 0.08 \in [0.62; 0.79]$ & $1.20 \pm 0.03 \in [1.17; 1.23]$ \\
+\hline
+\end{tabular}
+\begin{tabular}{r|r|r|r|r|r|r|r|r|r|}
+layer & \multicolumn{2}{|c|}{Balancing phase} & Caterpillar & \multicolumn{6}{|c|}{Diffbit phase} \\
+ & $0$ & $1$ & \multicolumn{1}{|c|}{phase} & $0$ & $1$ & $2$ & $3$ & $4$& $5$  \\
+\hline
+All  & $74.9836$  & $2.1322$  & $1.8579$  & $16.6059$  & $4.1589$  & $0.1897$  & $0.0093$  & $0.0596$  & $0.0029$ \\
+\hline $1$  & $70.3134$  & $0.0000$  & $4.2760$  & $20.0963$  & $4.9822$  & $0.2449$  & $0.0010$  & $0.0854$  & $0.0007$ \\
+ $2$  & $85.5433$  & $0.0530$  & $0.0206$  & $13.0597$  & $1.1971$  & $0.1074$  & $0.0001$  & $0.0187$  & $0.0000$ \\
+ $3$  & $75.1115$  & $4.8630$  & $0.0017$  & $14.4251$  & $5.3066$  & $0.2036$  & $0.0217$  & $0.0612$  & $0.0057$ \\
+ $4$  & $72.0470$  & $7.7268$  & $0.0011$  & $14.7095$  & $5.2639$  & $0.1616$  & $0.0290$  & $0.0527$  & $0.0084$ \\
+ $5$  & $71.5391$  & $8.1232$  & $0.0001$  & $14.7604$  & $5.3316$  & $0.1499$  & $0.0338$  & $0.0511$  & $0.0109$ \\
+ $6$  & $70.9514$  & $8.6365$  & $0.0000$  & $14.8445$  & $5.3194$  & $0.1483$  & $0.0373$  & $0.0503$  & $0.0122$ \\
+ $7$  & $70.6358$  & $8.8872$  & $0.0001$  & $14.9030$  & $5.3253$  & $0.1467$  & $0.0390$  & $0.0497$  & $0.0132$ \\
+ $8$  & $70.4886$  & $8.9909$  & $0.0000$  & $14.9433$  & $5.3269$  & $0.1465$  & $0.0411$  & $0.0501$  & $0.0124$ \\
+ $9$  & $70.4329$  & $9.0797$  & $0.0000$  & $14.9401$  & $5.2981$  & $0.1457$  & $0.0416$  & $0.0500$  & $0.0119$ \\
+ $10$  & $70.3646$  & $9.1681$  & $0.0000$  & $14.9111$  & $5.3071$  & $0.1459$  & $0.0396$  & $0.0498$  & $0.0137$ \\
+ $11$  & $70.3841$  & $9.2078$  & $0.0000$  & $14.8692$  & $5.2864$  & $0.1513$  & $0.0425$  & $0.0467$  & $0.0119$ \\
+ $12$  & $70.2532$  & $9.4323$  & $0.0000$  & $14.7734$  & $5.2931$  & $0.1490$  & $0.0382$  & $0.0501$  & $0.0106$ \\
+ $13$  & $70.0808$  & $9.7148$  & $0.0000$  & $14.7517$  & $5.2193$  & $0.1379$  & $0.0345$  & $0.0456$  & $0.0154$ \\
+ $14$  & $69.8633$  & $10.4019$  & $0.0000$  & $14.2467$  & $5.2673$  & $0.1221$  & $0.0425$  & $0.0446$  & $0.0117$ \\
+ $15$  & $69.4125$  & $11.4312$  & $0.0000$  & $13.7447$  & $5.1415$  & $0.1531$  & $0.0489$  & $0.0553$  & $0.0128$ \\
+ $16$  & $68.6791$  & $13.2387$  & $0.0000$  & $12.8891$  & $4.9714$  & $0.1322$  & $0.0341$  & $0.0426$  & $0.0128$ \\
+ $17$  & $67.7433$  & $16.7717$  & $0.0000$  & $10.6486$  & $4.7241$  & $0.0432$  & $0.0345$  & $0.0173$  & $0.0173$ \\
+ $18$  & $64.6302$  & $22.3651$  & $0.0000$  & $8.8782$  & $4.0550$  & $0.0715$  & $0.0000$  & $0.0000$  & $0.0000$ \\
+ $19$  & $59.0720$  & $32.7801$  & $0.0000$  & $5.0170$  & $3.0932$  & $0.0377$  & $0.0000$  & $0.0000$  & $0.0000$ \\
+ $20$  & $59.4037$  & $35.8945$  & $0.0000$  & $2.6376$  & $2.0642$  & $0.0000$  & $0.0000$  & $0.0000$  & $0.0000$ \\
+ $21$  & $48.5549$  & $49.1329$  & $0.0000$  & $1.1561$  & $1.1561$  & $0.0000$  & $0.0000$  & $0.0000$  & $0.0000$ \\
+ $22$  & $68.7500$  & $25.0000$  & $0.0000$  & $6.2500$  & $0.0000$  & $0.0000$  & $0.0000$  & $0.0000$  & $0.0000$ \\
+\hline
+\end{tabular}
