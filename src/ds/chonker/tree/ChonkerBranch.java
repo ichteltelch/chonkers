@@ -84,6 +84,45 @@ public class ChonkerBranch<M extends ChonkersMonoidData<M>> implements ChonkerNo
 		return -1;
 	}
 
+	
+	@Override
+	public long getRawDiffbit_leafReverse(long selfOffset, long otherOffset, ChonkerNode<?> other) {
+		
+		if(selfOffset==otherOffset && (getMonoidData() == other.getMonoidData() 
+				//for canonical chunks with equal content, the above check will have succeeded.
+				//for non.canonical chunks, we cannot call equalContent() because it is defined
+				//terms of getRawffbit(). We want to avoid calling equalStructure unnecessarily,
+				//so we first compare hashes and weights.
+				|| !(!isCanonical()  && other.isCanonical()) 
+				&& weight() == other.weight() && augHash()==other.augHash() && equalStructure(other) ))
+			return -1;
+		if(selfOffset >= weight())
+			return -1;
+		if(selfOffset>=left.weight()) {
+			if(right.weight()<other.weight()) {
+				return other.getRawDiffbit_leafReverse(otherOffset, selfOffset-left.weight(), right)^1;
+			}else {
+				return right.getRawDiffbit_leafReverse(selfOffset-left.weight(), otherOffset, other);
+
+			}
+		}
+		long diff ;
+		if(left.weight()<other.weight()) {
+			diff = other.getRawDiffbit_leafReverse(otherOffset, selfOffset, left);
+			if(diff>=0)
+				return diff^1;
+		}else {
+			diff = left.getRawDiffbit_leafReverse(selfOffset, otherOffset, other);
+			if(diff>=0)
+				return diff;
+		}
+		diff = other.getRawDiffbit_leafReverse(otherOffset+left.weight() - selfOffset, 0, right);
+		if(diff>=0) {
+			return (diff^1) + ((left.weight() - selfOffset)<<1);
+		}
+		return -1;
+	}
+
 	@Override
 	public long getReverseDiffbit(long selfOffset, long otherOffset, ChonkerNode<?> other) {
 		if(selfOffset==otherOffset && (getMonoidData() == other.getMonoidData() 

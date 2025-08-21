@@ -8,7 +8,7 @@ import java.util.Collections;
 import ds.chonker.tree.ChonkerLeaf.CharLeaf;
 import ds.chonker.tree.ChonkersMonoidData.WithUserMonoids;
 
-public class Yarn implements CharSequence{
+public class Yarn implements CharSequence, Comparable<Yarn>{
 
 	public static UserMonoid<ChonkerNode<ChonkersMonoidData.WithUserMonoids>> REVERSE = new UserMonoid<ChonkerNode<WithUserMonoids>>() {
 
@@ -145,6 +145,23 @@ public class Yarn implements CharSequence{
 		if(len>Integer.MAX_VALUE)
 			throw new ArithmeticException("This yarn is too large for its length to be represented as an int");
 		return (int)len;
+	}
+	@Override
+	public int compareTo(Yarn o) {
+		if(heComin==null) {
+			if(o.heComin==null) {
+				return 0;
+			}
+			return -1;
+		}
+		if(o.heComin==null) {
+			return 1;
+		}
+		long diffbit = heComin.getRawDiffbit_leafReverse(0, 0, o.heComin);
+		if(diffbit<0)
+			return Long.compare(heComin.weight(), o.heComin.weight());
+		return 1-2*(int)(diffbit&1);
+		
 	}
 	public long longLength() {
 		if(heComin==null)
@@ -387,17 +404,34 @@ public class Yarn implements CharSequence{
 			String str = new String(chars);
 
 
-			t0 = System.currentTimeMillis();
-			Yarn randomYarn = Yarn.of(str);
-			t1 = System.currentTimeMillis();
-			System.out.println("Make random Yarn: "+(t1-t0) +" ms");
-			randomYarn.reverse();
-			long t2= System.currentTimeMillis();
-			System.out.println("Reverse random Yarn:"+(t2-t1) +" ms");
+//			t0 = System.currentTimeMillis();
+//			Yarn randomYarn = Yarn.of(str);
+//			t1 = System.currentTimeMillis();
+//			System.out.println("Make random Yarn: "+(t1-t0) +" ms");
+//			randomYarn.reverse();
+//			long t2= System.currentTimeMillis();
+//			System.out.println("Reverse random Yarn:"+(t2-t1) +" ms");
 		}
 		System.gc();
 		System.out.println(cc.canon.size());
 		System.out.println(cc.monoidCanon.size());
+		
+		testCompare("ab", "c");
+		testCompare("ab", "cd");
+		testCompare("ab", "cde");
+		testCompare("ab", "b");
+		testCompare("ab", "bc");
+		testCompare("ab", "bcd");
+		testCompare("ab", "a");
+		testCompare("ab", "ab");
+		testCompare("ab", "abc");
+		testCompare("a", "a");
+		testCompare("", "a");
 	}
+	private static void testCompare(String a, String b) {
+		System.out.println(a.compareTo(b) + " == " + Yarn.of(a).compareTo(Yarn.of(b)));
+		System.out.println(b.compareTo(a) + " == " + Yarn.of(b).compareTo(Yarn.of(a)));
+	}
+	
 
 }

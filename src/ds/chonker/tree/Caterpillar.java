@@ -161,7 +161,7 @@ public class Caterpillar<M extends ChonkersMonoidData<M>> implements ChonkerNode
 	public long weight() {
 		return monoidData==null?data[0].weight()*repetitions():monoidData.weight();
 	}
-	private long repetitions() {
+	public long repetitions() {
 		return offsets[offsets.length-1];
 	}
 
@@ -242,6 +242,73 @@ public class Caterpillar<M extends ChonkersMonoidData<M>> implements ChonkerNode
 
 		return -1;
 	}
+
+	@Override
+	public long getRawDiffbit_leafReverse(long selfOffset, long otherOffset, ChonkerNode<?> other) {
+
+		ChonkerNode<?> prototype = data[0];
+		long dataWeight = prototype.weight();
+		long repetitions = repetitions();
+		if(selfOffset>= dataWeight*repetitions)
+			return -1;
+		if(other==this && selfOffset % dataWeight == otherOffset % dataWeight)
+			return -1;
+		
+		
+
+		
+		long partial = selfOffset % dataWeight;
+		
+		if(partial == otherOffset % dataWeight) {
+			if(other instanceof Caterpillar) {
+				
+				Caterpillar<?> otherCaterpillar = (Caterpillar<?>) other;
+	            ChonkerNode<?> otherPrototype = otherCaterpillar.data[0];
+	            long otherDataWeight = otherPrototype.weight();
+	            long otherRepetitions = otherCaterpillar.repetitions();
+				if(otherOffset >= otherDataWeight*otherRepetitions)
+					return -1;
+				if(dataWeight == otherDataWeight) {
+					long diffbitPart1 = prototype.getRawDiffbit_leafReverse(partial, partial, otherPrototype);
+					if(diffbitPart1>=0)
+						return diffbitPart1;
+					if(partial!=0) {
+						long rep = 1 + selfOffset / dataWeight;
+						if(rep>=repetitions)
+							return -1;
+						long otherRep = 1 + otherOffset / otherDataWeight;
+						if(otherRep>=otherRepetitions)
+							return -1;
+						return prototype.getRawDiffbit_leafReverse(0, 0, otherPrototype);
+					}else {
+						return -1;
+					}
+	            }
+			}
+		}
+		
+		long rep;
+		long originalOffset = otherOffset;
+		if(partial!=0) {
+			long ret = other.getRawDiffbit_leafReverse(otherOffset, partial, prototype);	
+			if(ret>=0)
+				return ret^1;
+			rep = 1 + selfOffset / dataWeight;
+			otherOffset += dataWeight - partial;
+		} else {
+			rep = selfOffset / dataWeight;
+		}
+		long otherWeight = other.weight();
+		for(; rep<repetitions & otherOffset<otherWeight; ++rep, otherOffset+=dataWeight) {
+			long ret = other.getRawDiffbit_leafReverse(otherOffset, 0, prototype);
+			if(ret>=0)
+				return (ret^1) + ((otherOffset - originalOffset)<<1);
+		}
+
+		return -1;
+	}
+
+	
 	@Override
 	public long getReverseDiffbit(long selfOffset, long otherOffset, ChonkerNode<?> other) {
 

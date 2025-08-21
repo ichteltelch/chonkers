@@ -201,7 +201,7 @@ public class Rechonker <M extends ChonkersMonoidData<M>>{
 		right = _right.discardLeft(config).leftMost(0);
 		currentLevel = 0;
 		phase = 2;
-		firstLayerOfCurrentPhase  = ChonkerNode.encodeLayerTag(currentLevel, phase, 0);
+		firstLayerOfCurrentPhase  = ChonkerNode.encodeLevelTag(currentLevel, phase, 0);
 		lastLayerOfPreviousPhase = 0;
 		absoluteUnit=config.absoluteUnit(currentLevel);
 		maxDiffbitOrder=config.maxDiffbitOrder(currentLevel);
@@ -575,8 +575,8 @@ public class Rechonker <M extends ChonkersMonoidData<M>>{
 		lastLayerOfPreviousPhase = lastLayerOfCurrentPhase;
 		phase = 0;
 		currentLevel++;
-		firstLayerOfCurrentPhase = ChonkerNode.encodeLayerTag(currentLevel, phase, 0);
-		lastLayerOfCurrentPhase = ChonkerNode.encodeLayerTag(currentLevel, phase, 1);
+		firstLayerOfCurrentPhase = ChonkerNode.encodeLevelTag(currentLevel, phase, 0);
+		lastLayerOfCurrentPhase = ChonkerNode.encodeLevelTag(currentLevel, phase, 1);
 		left=left.discardRight(config).upToLayer(lastLayerOfPreviousPhase);
 		right=right.discardLeft(config).upToLayer(lastLayerOfPreviousPhase);
 		absoluteUnit=config.absoluteUnit(currentLevel);
@@ -684,7 +684,7 @@ public class Rechonker <M extends ChonkersMonoidData<M>>{
 		//increment level, enter megachonker merging mode
 		lastLayerOfPreviousPhase = lastLayerOfCurrentPhase;
 		++phase;
-		firstLayerOfCurrentPhase = ChonkerNode.encodeLayerTag(currentLevel, phase, 0);
+		firstLayerOfCurrentPhase = ChonkerNode.encodeLevelTag(currentLevel, phase, 0);
 		lastLayerOfCurrentPhase = firstLayerOfCurrentPhase;
 		left=left.discardRight(config).upToLayer(lastLayerOfPreviousPhase);
 		right=right.discardLeft(config).upToLayer(lastLayerOfPreviousPhase);
@@ -762,7 +762,7 @@ public class Rechonker <M extends ChonkersMonoidData<M>>{
 	}
 	public static <M extends ChonkersMonoidData<M>> void checkBalancePrecondition(ChonkerConfig<M> c, ChonkerNode<M> node, int layer) {	
 		List<ChonkerNode<M>> list = new ArrayList<>();
-		give(node, ChonkerNode.encodeLayerTag(layer, 0, 0)-1, list);
+		give(node, ChonkerNode.encodeLevelTag(layer, 0, 0)-1, list);
 		List<Long> sizes = weights(list);
 		boolean lastWasKitten = false;
 		long absoluteUnit = c.absoluteUnit(layer);
@@ -779,7 +779,7 @@ public class Rechonker <M extends ChonkersMonoidData<M>>{
 	}
 	public static <M extends ChonkersMonoidData<M>> void checkBalancePostcondition(ChonkerConfig<M> c, ChonkerNode<M> node, int layer) {	
 		List<ChonkerNode<M>> list = new ArrayList<>();
-		give(node, ChonkerNode.encodeLayerTag(layer, 0, 3), list);
+		give(node, ChonkerNode.encodeLevelTag(layer, 0, 3), list);
 		List<Long> sizes = weights(list);
 		long absoluteUnit = c.absoluteUnit(layer);
 		long lastSize = Integer.MAX_VALUE/2;
@@ -803,7 +803,7 @@ public class Rechonker <M extends ChonkersMonoidData<M>>{
 	}
 	public static <M extends ChonkersMonoidData<M>> void checkDiffbitPrecondition(ChonkerConfig<M> c, ChonkerNode<M> node, int layer) {	
 		List<ChonkerNode<M>> list = new ArrayList<>();
-		give(node, ChonkerNode.encodeLayerTag(layer, 2, 0)-1, list);
+		give(node, ChonkerNode.encodeLevelTag(layer, 2, 0)-1, list);
 		List<Long> sizes = weights(list);
 		long absoluteUnit = c.absoluteUnit(layer);
 		long lastSize = Integer.MAX_VALUE/2;
@@ -827,7 +827,7 @@ public class Rechonker <M extends ChonkersMonoidData<M>>{
 	}
 	public static <M extends ChonkersMonoidData<M>> void checkDiffbitPostcondition(ChonkerConfig<M> c, ChonkerNode<M> node, int layer) {	
 		List<ChonkerNode<M>> list = new ArrayList<>();
-		give(node, ChonkerNode.encodeLayerTag(layer, 2, 5), list);
+		give(node, ChonkerNode.encodeLevelTag(layer, 2, 5), list);
 		List<Long> sizes = weights(list);
 		boolean lastWasFineBoi = false;
 		long absoluteUnit = c.absoluteUnit(layer);
@@ -863,8 +863,8 @@ public class Rechonker <M extends ChonkersMonoidData<M>>{
 
 		lastLayerOfPreviousPhase = lastLayerOfCurrentPhase;
 		++phase;
-		firstLayerOfCurrentPhase = ChonkerNode.encodeLayerTag(currentLevel, phase, 0);
-		lastLayerOfCurrentPhase = ChonkerNode.encodeLayerTag(currentLevel, phase, 5);
+		firstLayerOfCurrentPhase = ChonkerNode.encodeLevelTag(currentLevel, phase, 0);
+		lastLayerOfCurrentPhase = ChonkerNode.encodeLevelTag(currentLevel, phase, 5);
 		left=left.discardRight(config).upToLayer(lastLayerOfPreviousPhase);
 		right=right.discardLeft(config).upToLayer(lastLayerOfPreviousPhase);
 		absoluteUnit=config.absoluteUnit(currentLevel);
@@ -1018,7 +1018,7 @@ public class Rechonker <M extends ChonkersMonoidData<M>>{
 
 		}else {
 			ChonkerNode<M> newBranch = config.branch(
-					ChonkerNode.encodeLayerTag(currentLevel, phase, mergePrio)
+					ChonkerNode.encodeLevelTag(currentLevel, phase, mergePrio)
 					, at.node, at.right.node);
 			ChonkerTreeZipper<M> newZip = new ChonkerTreeZipper<M>(newBranch, null, 0);
 			it = new Item<M>(newZip, at.left, at.right.right, (config), at.right.mergePriority);
@@ -1534,8 +1534,8 @@ public class Rechonker <M extends ChonkersMonoidData<M>>{
 						default: _phase = 2; mergePrio = stage; break;
 						}
 
-						prevLevelTag = ChonkerNode.encodeLayerTag(_phase==0?level-1:level, (_phase+2)%3, _phase==0?5:_phase==1?3:0);
-						levelTag = ChonkerNode.encodeLayerTag(level, _phase, mergePrio);
+						prevLevelTag = ChonkerNode.encodeLevelTag(_phase==0?level-1:level, (_phase+2)%3, _phase==0?5:_phase==1?3:0);
+						levelTag = ChonkerNode.encodeLevelTag(level, _phase, mergePrio);
 
 
 

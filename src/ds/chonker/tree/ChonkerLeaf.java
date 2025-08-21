@@ -19,6 +19,18 @@ public abstract class ChonkerLeaf<M extends ChonkersMonoidData<M>> implements Ch
 		return other.getRawDiffbit(otherOffset, selfOffset, this)^1;
 	}
 	@Override
+	public long getRawDiffbit_leafReverse(long selfOffset, long otherOffset, ChonkerNode<?> other) {
+		if(selfOffset>=weight())
+			return -1;
+		if(other instanceof ChonkerLeaf) {
+			ChonkerLeaf<?> otherLeaf = (ChonkerLeaf<?>) other;
+			assert selfOffset < Integer.MAX_VALUE;
+			assert otherOffset < Integer.MAX_VALUE;
+			return getReverseLeafDiffbit((int)selfOffset, (int)otherOffset, otherLeaf);
+		}
+		return other.getRawDiffbit_leafReverse(otherOffset, selfOffset, this)^1;
+	}
+	@Override
 	public long getReverseDiffbit(long selfOffset, long otherOffset, ChonkerNode<?> other) {
 		if(selfOffset>=weight())
 			return -1;
@@ -188,10 +200,11 @@ public abstract class ChonkerLeaf<M extends ChonkersMonoidData<M>> implements Ch
 				int diff = sValue ^ oValue;
 				if(diff==0)
 					return -1;
-				int index = (int)weight() - 1 - Integer.bitCount(Integer.highestOneBit(diff)-1);
+				int rindex = Integer.bitCount(Integer.highestOneBit(diff)-1);
+				int index = (int)weight() - 1 - rindex;
 				if(index + selfOffset >= weight())
 					return -1;
-				boolean up = (sValue&(1<<index))==0;
+				boolean up = (sValue&(1<<rindex))==0;
 				return (index << 1) + (up?1:0);
 			}
 			throw new IllegalArgumentException();

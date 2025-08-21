@@ -94,6 +94,7 @@ public interface ChonkerNode<M extends ChonkersMonoidData<M>> {
 	 * @return The index, relative to the offsets
 	 */
 	abstract long getRawDiffbit(long selfOffset, long otherOffset, ChonkerNode<?> other);
+	abstract long getRawDiffbit_leafReverse(long selfOffset, long otherOffset, ChonkerNode<?> other);
 	abstract long getReverseDiffbit(long selfOffset, long otherOffset, ChonkerNode<?> other);
 
 	abstract ChonkerNode<M> getChild(long i);
@@ -209,7 +210,7 @@ public interface ChonkerNode<M extends ChonkersMonoidData<M>> {
 	abstract ChonkerNode<M> dropPrefixChildren(long i, ChonkerConfig<M> c);
 	abstract ChonkerNode<M> dropSuffixChildren(long i, ChonkerConfig<M> c);
 	abstract ChonkerNode<M> substChild(long i, ChonkerNode<M> subst, ChonkerConfig<M> c);
-	public static int encodeLayerTag(int level, int phase, int prio) {
+	public static int encodeLevelTag(int level, int phase, int prio) {
 		int pp;
 
 		switch(phase) {
