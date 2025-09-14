@@ -398,10 +398,10 @@ public class Yarn implements CharSequence, Comparable<Yarn>{
 			System.out.println("Reverse Fibonacci word: "+(t1-t0) +" ms");
 
 
-			char[] chars = new char[1000000];
-			for(int i=0; i<chars.length; ++i)
-				chars[i] = (char)('A' + (int)(Math.random()*26));
-			String str = new String(chars);
+//			char[] chars = new char[1000000];
+//			for(int i=0; i<chars.length; ++i)
+//				chars[i] = (char)('A' + (int)(Math.random()*26));
+//			String str = new String(chars);
 
 
 //			t0 = System.currentTimeMillis();

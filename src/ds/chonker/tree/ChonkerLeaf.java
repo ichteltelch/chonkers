@@ -61,9 +61,9 @@ public abstract class ChonkerLeaf<M extends ChonkersMonoidData<M>> implements Ch
         this.canonical = canonical;
     }
 	public static class ByteLeaf extends ChonkerLeaf<ChonkersMonoidData.Minimal> implements ChonkersMonoidData.Minimal{
-		final int value;
+		final short value;
 		public ByteLeaf(int value) {
-			this.value = 0xFF & value;
+			this.value = (short)(0xFF & value);
 		}
 		@Override
 		public ByteLeaf content() {
